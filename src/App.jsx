@@ -6,15 +6,16 @@ import { Navbar, Hero, Courses, Contact, Footer } from "./components";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='App'>
+      <div className='App relative z-0'>
         {/* TEQihub */}
         <div>
-          <Navbar />
         </div>
+          <Navbar />
         <Hero />
         <Courses />
         <Contact />
         <Footer />
+        
       </div>
     </BrowserRouter>
   );

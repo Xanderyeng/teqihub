@@ -5,20 +5,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "rgba(241, 241, 241, 1)",
-        secondary: "rgba(25, 84, 15, 1)",
-        tertiary: "#D1DBFF",
-        quarternary: "rgba(137, 137, 137, 1)",
-        grey: "rgba(217, 217, 217, 1)",
+        primary: "hsla(0, 0%, 100%, 1)",
+        secondary: "hsla(0, 3%, 35%, 0.17)",
+        "card-bg": "hsla(216, 33%, 28%, 0.6)",
+        // quarternary: "rgba(137, 137, 137, 1)",
+        hover: "hsla(216, 98%, 80%, 1)",
+        'text-gray': "hsla(198, 8%, 68%, 1)",
         blue: "blue",
         pink: "pink",
         peach:"peachpuff",
         maroon: "rgba(94, 57, 55, 1)",
         yellow: "rgba(254, 195, 82, 1)",
-        black: "rgba(32, 32, 32, 1)",
-        "gradient-mask": "linear-gradient(180deg, #ffffff00 0%, rgba(0, 0, 0, 0.438) 64.8%)",
+        black: "hsla(228, 99%, 2%, 1)",
+        gradient: "linear-gradient(90.89deg, hsla(284, 95%, 76%, 1) 5.39%, hsla(216, 98%, 80%, 1) 50.36%, hsla(203, 100%, 77%, 1) 99.23%);",
         green: "rgba(0, 0, 0, 0.22)",
         overlay: "rgba(0, 117, 73, 1)",
+        'sectionOverlay': "rgba(26, 33, 47, 0.5)",
       },
       fontWeight: {
         thin: "100",
@@ -41,6 +43,7 @@ module.exports = {
         lato: ['Lato', 'sans-serif'],
         nunito: ['Nunito', 'sans-serif'],
         raleway: ['Raleway', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
@@ -49,11 +52,11 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-backdrop": "url('/src/assets/windvanes.jpg')",
-        map: "url('/src/assets/world-map-africa.svg')",
+        hero: "url('/src/assets/Hero_Background.png')",
+        // map: "url('/src/assets/world-map-africa.svg')",
         backdrop: "url('/src/assets/backdrop.png')",
-        sectiondrop: "url('/src/assets/participate.png')",
-        "hero-masked": "url('/src/assets/Hero_Image_Masked.png')",
+        // sectiondrop: "url('/src/assets/participate.png')",
+        // "hero-masked": "url('/src/assets/Hero_Image_Masked.png')",
       },
       backgroundSize: {
         auto: "auto",
@@ -84,6 +87,14 @@ module.exports = {
         top: "top",
         "top-4": "center top 1rem",
       },
+      boxShadowColor: {
+
+      },
+      maxHeight: {
+        '758': '758px',
+        '100':'100px',
+        '455': '455px',
+      }
     },
   },
   plugins: [],

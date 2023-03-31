@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:wght@200;300;400;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 @font-face {
   font-family: "a Astro Space";
@@ -25,15 +25,57 @@
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Nunito', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
 
 :root {
   font-family: "";
+
+  --gradient: linear-gradient(
+    90.89deg,
+    hsla(284, 95%, 76%, 1) 5.39%,
+    hsla(216, 98%, 80%, 1) 50.36%,
+    hsla(203, 100%, 77%, 1) 99.23%
+  );
+  --blackBg: hsla(228, 99%, 2%, 1);
 }
 
 html {
   font-size: 62.5%;
+  /* overflow: auto; */
+  background: var(--blackBg);
+}
+
+body {
+  height: 300vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .App {
   font-size: 2.4rem;
+}
+
+.gradient-mask {
+  background-image: var(--gradient);
+}
+
+.overlay {
+  background: linear-gradient(
+    90deg,
+    var(--blackBg),
+    53.2%,
+    rgba(26, 27, 31, 0.67) 67.95%,
+    rgba(26, 27, 31, 0) 88.03%
+  );
+}
+
+.text-mask {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-bg{
+  background: rgba(0, 2, 10, 0.825);
 }
