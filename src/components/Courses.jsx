@@ -1,6 +1,6 @@
 import React from "react";
-import { courses } from '../constants'
-import { CoursesCard } from '../components'
+// import { courses } from '../constants'
+// import { CoursesCard } from '../components'
 import { dataAnalytics } from "../assets";
 
 export const Courses = () => {
