@@ -6,8 +6,8 @@ export const Hero = () => {
     <section className="relative z-5 w-full h-[525px] border-0 border-pink">
     {/* border-2 border-pink */}
      <div
-        className={` absolute inset-0 top-[90px] max-w-screen-lg max-h-455 bg-backdrop bg-no-repeat bg-top bg-contain mx-auto flex flex-row items-start gap-5  `}
-        // border-2 border-blue
+        className={` absolute inset-0 top-[90px] max-w-screen-lg max-h-455 bg-backdrop bg-no-repeat bg-top bg-contain mx-auto flex flex-row items-start gap-5 border-2 border-blue `}
+        // 
       >
 
     <div className="relative z-0 w-full h-[435px] overlay flex flex-col items-start justify-center ">

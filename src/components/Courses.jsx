@@ -13,10 +13,10 @@ export const Courses = () => {
             Course List.
           </span>
           <h1 className='font-poppins text-[4.8rem] text-center font-semibold capitalize '>
-            our courses
+            courses
           </h1>
           <div className='w-full'></div>
-          <span className='w-[65%] font-inter text-[1.4rem] text-center font-light text-text-gray'>
+          <span className='w-[65%] font-inter text-[1.4rem] text-center font-light text-white'>
             Interactive and effective training options customized to your unique
             needs and skillset, including self-paced online courses with
             workplace capstone projects, to help you gain practical experience
