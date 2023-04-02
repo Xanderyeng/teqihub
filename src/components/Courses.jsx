@@ -1,5 +1,5 @@
 import React from "react";
-import { courses } from "../constants";
+import { coursesList } from "../constants";
 import { CoursesCard } from "./CoursesCard";
 
 export const Courses = () => {
@@ -29,7 +29,7 @@ export const Courses = () => {
         <div className='flex items-center justify-center w-full px-0 py-16'>
           <div className='grid grid-cols-4 gap-16'>
             {/* ------------ SAMPLE CARD --------------- */}
-            {courses.map((course, index) => (
+            {coursesList.map((course, index) => (
               <CoursesCard key={course.title} index={index} {...course} />
             ))}
 

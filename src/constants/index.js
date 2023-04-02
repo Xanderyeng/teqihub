@@ -17,7 +17,7 @@ import {
     },
   ];
   
-  export const courses = [
+  export const coursesList = [
     {
       title: "data analytics",
       icon: dataAnalytics,
