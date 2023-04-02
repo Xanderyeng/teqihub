@@ -1,14 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "./fonts/stylesheet.css";
-import { Navbar, Hero, Courses, Contact, Footer, Success } from "./Components";
+import { Navbar, Hero, Courses, Contact, Footer, Success } from "./Components/index";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className='App relative z-0'>
-        {/* TEQihub */}
-        <div></div>
         <Navbar />
         <Hero />
         <Courses />
