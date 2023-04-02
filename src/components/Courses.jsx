@@ -4,13 +4,13 @@ import { CoursesCard } from '../components'
 
 export const Courses = () => {
   return (
-    <section className='relative z-10 h-auto bg-courseBgg flex items-center py-32 justify-center border-0 border-blue '>
+    <section className='relative z-10 h-auto flex items-center py-32 justify-center '>
                 {/* ADDS THE RADIAL BACKGROUND BLUR GLOW */}
     <div className="absolute z-0 top-[45%] section-radial-bg rounded-[100%] w-[45vw] h-[5vh]"/>
       {/* THIS DIV CONTAINER HOLDS ALL CHILD ELEMENTS  */}
       <div className='relative max-w-[80vw] flex flex-col gap-16 justify-center items-center h-auto border-0 border-yellow '>
-        <div className='relative flex flex-col gap-4 items-center border-0 border-blue'>
-          <span className='font-poppins font-semibold text-center leading-8 text-mask'>
+        <div className='relative flex flex-col gap-4 items-center '>
+          <span className='font-poppins font-semibold text-center  text-mask'>
             Course List.
           </span>
           <h1 className='font-poppins text-[4.8rem] text-center font-semibold capitalize '>
@@ -26,7 +26,7 @@ export const Courses = () => {
         </div>
                          {/* DIV TO HOLD THE CARDS */}
 
-        <div className='flex items-center justify-center w-full px-0 py-16 border-0 border-pink'>
+        <div className='flex items-center justify-center w-full px-0 py-16'>
           <div className='grid grid-cols-4 gap-16'>
             {/* ------------ SAMPLE CARD --------------- */}
                 {courses.map((course, index) => (
