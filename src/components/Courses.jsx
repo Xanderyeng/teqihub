@@ -8,9 +8,9 @@ export const Courses = () => {
       {/* ADDS THE RADIAL BACKGROUND BLUR GLOW */}
       <div className='absolute z-0 top-[45%] section-radial-bg rounded-[100%] w-[45vw] h-[5vh]' />
       {/* THIS DIV CONTAINER HOLDS ALL CHILD ELEMENTS  */}
-      <div className='relative max-w-[80vw] flex flex-col gap-16 justify-center items-center h-auto border-0 border-yellow '>
+      <div className='relative max-w-[80vw] flex flex-col gap-16 justify-center items-center h-auto '>
         <div className='relative flex flex-col gap-4 items-center '>
-          <span className='font-poppins font-semibold text-center  text-mask'>
+          <span className='font-poppins font-semibold text-center text-mask'>
             Course List.
           </span>
           <h1 className='font-poppins text-[4.8rem] text-center font-semibold capitalize '>
@@ -30,7 +30,7 @@ export const Courses = () => {
           <div className='grid grid-cols-4 gap-16'>
             {/* ------------ SAMPLE CARD --------------- */}
             {coursesList.map((course, index) => (
-              <CoursesCard key={course.title} index={index} {...course} />
+              <CoursesCard key={index} index={index} {...course} />
             ))}
 
             {/* ----------------- */}

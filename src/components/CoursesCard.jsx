@@ -20,7 +20,7 @@ export const CoursesCard = ({ index, icon, title, text }) => {
           className={`${styles.paddingCard} relative z-20 flex flex-col h-[100%] w-[100%] items-center justify-center bg-secondary hover:bg-card-bg-2 rounded-21`}
         >
           <span className='flex items-center justify-center w-24 h-24 card-svg'>
-            {/* <img src={icon} className='w-28 h-28 text-primary' /> */}
+            
             {icon}
           </span>
           <p className='text-primary text-center capitalize text-[1.8rem] pt-6'>
@@ -29,15 +29,11 @@ export const CoursesCard = ({ index, icon, title, text }) => {
           <p className='text-text-gray text-center text-[1.4rem] pt-6'>
             {text}
           </p>
-          <div class='relative mt-10 z-0 p-[1px] rounded-21 bg-gradient-to-b from-[#DE89FC] via-[#9AC2FE] to-[#88D2FF]'>
+          <div className='relative mt-10 z-0 p-[1px] rounded-21 bg-gradient-to-b from-[#DE89FC] via-[#9AC2FE] to-[#88D2FF]'>
           <div className='absolute top-[1px] left-[1px] h-[96%] w-[98%] rounded-21 bg-black z-0' />
-            <button class='relative px-14 py-4 text-primary capitalize text-[1.6rem] bg-secondary rounded-21 hover:bg-gradient-to-b from-[#DE89FC] via-[#9AC2FE] to-[#88D2FF] hover:text-black'>See more</button>
+            <button className='relative px-14 py-4 text-primary capitalize text-[1.6rem] bg-secondary rounded-21 hover:bg-gradient-to-b from-[#DE89FC] via-[#9AC2FE] to-[#88D2FF] hover:text-black'>See more</button>
           </div>
-          {/* <div className='bg-gradient-to-b from-[#DE89FC] via-[#9AC2FE] to-[#88D2FF] mt-6'>
-            <button className=' text-[1.4rem] text-primary font-poppins font-semibold py-2 px-12 rounded-full'>
-              Login
-            </button>
-          </div> */}
+         
         </div>
       </div>
     </motion.div>
