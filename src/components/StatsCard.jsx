@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 
-export const StatsCard = ({ title, number, index }) => {
+export const StatsCard = ({ title, number, icon, index }) => {
   const [counterOn, setcounterOn] = useState(false);
   return (
     <ScrollTrigger
@@ -12,12 +12,12 @@ export const StatsCard = ({ title, number, index }) => {
       <div className='flex flex-col justify-center [nth-child(even)]:text-center'>
         <span className='font-poppins font-bold text-[4rem] text-mask-2 capitalize'>
           {counterOn && (
-            <CountUp start={0} end={number} duration={1.5} delay={index/10} />
+            <CountUp start={0} end={number} duration={1.5} delay={index/1.75} />
           )}
-          K+
+          {icon}
         </span>
         <p className='font-inter text-[1.8rem] font-light capitalize text-text-gray'>
-          &nbsp;&nbsp;&nbsp;{title}
+          &nbsp;&nbsp;{title}
         </p>
       </div>
     </ScrollTrigger>

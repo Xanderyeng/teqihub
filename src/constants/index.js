@@ -46,13 +46,16 @@ import {
     {
       title: "tutorials",
       number: "100",
+      icon:"+",
     },
     {
       title: "students",
       number: "650",
+      icon:"+",
     },
     {
       title: "success",
       number: "95",
+      icon:"%",
     },
   ]

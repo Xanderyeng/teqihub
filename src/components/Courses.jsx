@@ -6,7 +6,7 @@ export const Courses = () => {
   return (
     <section className='relative z-10 h-auto bg-courseBgg flex items-center py-32 justify-center border-0 border-blue '>
                 {/* ADDS THE RADIAL BACKGROUND BLUR GLOW */}
-    <div className="absolute z-0 top-[45%] section-radial-bg rounded-[100%] w-[45vw] h-[5vh]"></div>
+    <div className="absolute z-0 top-[45%] section-radial-bg rounded-[100%] w-[45vw] h-[5vh]"/>
       {/* THIS DIV CONTAINER HOLDS ALL CHILD ELEMENTS  */}
       <div className='relative max-w-[80vw] flex flex-col gap-16 justify-center items-center h-auto border-0 border-yellow '>
         <div className='relative flex flex-col gap-4 items-center border-0 border-blue'>

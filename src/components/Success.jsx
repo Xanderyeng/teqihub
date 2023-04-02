@@ -5,6 +5,7 @@ import { StatsCard } from "./StatsCard";
 export const Success = () => {
   return (
     <section className='relative z-0 h-auto flex items-center py-0 justify-center border-0 border-blue '>
+    <div className="absolute z-0 bottom-[30%] left-[12%] success-blur rounded-[100%] w-[15vw] h-[15vh]"/>
       <div className='grid grid-cols-2 gap-32 border-0 border-pink h-[100%] w-[75vw] py-32'>
         {/* LEFT GRID BOX COL */}
 
@@ -31,7 +32,7 @@ export const Success = () => {
         </div>
 
         {/* IMAGE COL GRID BOX */}
-        <div className='bg-stats bg-no-repeat bg-[80%] bg-cover max-w-[80%] border-0 border-red'/>
+        <div className='bg-stats bg-no-repeat bg-[80%] bg-cover max-w-[80%] rounded-21 shadow-2xl border-0 border-red'/>
       </div>
       {/* Success */}
     </section>

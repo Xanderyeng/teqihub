@@ -117,3 +117,8 @@ background-clip: text;
     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   filter: blur(110px);
 }
+
+.success-blur{
+  background: radial-gradient(146.3% 1115.38% at -36.97% -45%, rgba(154, 194, 254, 1) 49.89%, rgba(136, 210, 255, 1) 77.08%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+filter: blur(180px);
+}

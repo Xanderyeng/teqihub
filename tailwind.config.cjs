@@ -93,8 +93,12 @@ module.exports = {
         top: "top",
         "top-4": "center top 1rem",
       },
-      boxShadowColor: {
+      dropShadow: {
+        '2xl': '2px 4px 16px rgba(0 , 0, 0, 0.6)',
+      },
 
+      borderRadius: {
+        '21': '21px',
       },
       maxHeight: {
         '758': '758px',
