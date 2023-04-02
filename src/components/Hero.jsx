@@ -1,30 +1,36 @@
-import React from 'react'
-import { styles } from '../styles'
+import React from "react";
+import { styles } from "../styles";
 
 export const Hero = () => {
   return (
-    <section className="relative z-5 w-full h-[525px] border-0 border-pink">
-    {/* border-2 border-pink */}
-     <div
-        className={` absolute inset-0 top-[90px] max-w-screen-lg max-h-455 bg-backdrop bg-no-repeat bg-top bg-contain mx-auto flex flex-row items-start gap-5 border-2 border-blue `}
-        // 
+    // h-[545px]
+    <section className='relative z-20 w-full h-[90vh] border-0 border-pink '>
+      {/* border-2 border-pink */}
+      <div
+      //  max-h-475
+        className={`absolute inset-0 top-[70px] max-h-[90vh] bg-backdrop bg-no-repeat bg-center bg-100% mx-auto flex flex-row justify-center gap-5 border-0 border-red `}
+        //
       >
-
-    <div className="relative z-0 w-full h-[435px] overlay flex flex-col items-start justify-center ">
-    {/* border-2 border-yellow */}
-    <div className="flex">
-
-    {/* Hero */}
-    <span className='font-sans'>
-      <p className='text-[4.2rem] font-semibold '>
-        Empowering your
-      </p>
-      <p className='capitalize font-bold text-mask text-[4.2rem]'>tech journey</p>
-    </span>
-    </div>
-
-    </div>
+      {/* h-[455px] */}
+        <div className='absolute inset-0 z-0 w-full overlay flex flex-col items-start justify-center border-0 border-green'></div>
+          {/* border-2 border-yellow */}
+              {/* Hero */}
+          <div className='relative h-full w-[75vw] flex flex-row items-center '>
+          {/* border-2 border-red */}
+            <div
+              className=' flex flex-col justify-center border-0 border-pink
+    '
+            >
+              <span className='font-sans'>
+                <p className='text-[4.2rem] font-semibold '>Empowering your</p>
+                <p className='capitalize font-bold text-mask text-[4.2rem]'>
+                  tech journey
+                </p>
+              </span>
+            </div>
+          </div>
+        
       </div>
     </section>
-  )
-}
+  );
+};

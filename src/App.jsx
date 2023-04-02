@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "./fonts/stylesheet.css";
-import { Navbar, Hero, Courses, Contact, Footer } from "./components/Index";
+import { Navbar, Hero, Courses, Contact, Footer, Success } from "./components/Index";
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
           <Navbar />
         <Hero />
         <Courses />
+        <Success/>
         <Contact />
         <Footer />
         

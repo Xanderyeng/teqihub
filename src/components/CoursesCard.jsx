@@ -1,21 +1,34 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
+import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
-export const CoursesCard = ({index, icon, title, text}) => {
+export const CoursesCard = ({ index, icon, title, text }) => {
   return (
     <motion.div
       variants={fadeIn("right", "spring", 0.75 * index, 0.75)}
       className='flex justify-center align-center py-4 gap-16'
     >
       <div
-        className='features-glass-box'
+        className={`relative z-50 flex flex-col flex-nowrap gap-4 items-center rounded-[21px] transition all ease-in-out delay-150 bg-transparent hover:bg-gradient-to-b from-[#DE89FC] via-[#9AC2FE] to-[#88D2FF] p-[1px] hover:-translate-y-1 hover:scale-105 duration-300 hover:cursor-pointer`}
         options={{ max: 5, scale: 1, speed: 450 }}
       >
-        <span>{icon}</span>
-        <p>{title}</p>
-        <p className='features-details'>{text}</p>
+        <div className="absolute top-[1px] h-[99%] w-[99%] rounded-[21px] pp-[1px] bg-black z-10"/>
+                      {/* WHEN HOVER SHOWS THE CUSTOM COLOR ON CARD BACKGROUND */}
+                              {/* HOLDS GREY BEFORE HOVER */}
+        <div className={`${styles.paddingCard} relative z-20 flex flex-col h-[100%] w-[100%] items-center justify-center bg-secondary hover:bg-card-bg-2 rounded-[21px]`}>
+          <span className='flex items-center justify-center w-24 h-24 card-svg'>
+            {/* <img src={icon} className='w-28 h-28 text-primary' /> */}
+            {icon}
+          </span>
+          <p className='text-primary text-center capitalize text-[1.8rem] pt-6'>
+            {title}
+          </p>
+          <p className='text-text-gray text-center text-[1.4rem] pt-6'>
+           {text}
+          </p>
+        </div>
       </div>
     </motion.div>
-  )
-}
+  );
+};

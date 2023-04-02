@@ -21,22 +21,38 @@ import {
     {
       title: "data analytics",
       icon: dataAnalytics,
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing litr, eirmod tempor invidunt."
+      text: "Analyzing data to uncover insights and improve outcomes"
     },
     {
       title: "cyber security",
       icon: cyberSecurity,
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing litr, eirmod tempor invidunt."
+      text: "Defending against digital threats and safeguarding sensitive information."
+      // 
+      // Protecting computer systems and data from unauthorized access or attack.
     },
     {
       title: "data science",
       icon: dataScience,
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing litr, eirmod tempor invidunt."
+      text: "Extracting insights and knowledge from data to drive better decisions."
     },
     {
       title: "data engineering",
       icon: dataEngineering,
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing litr, eirmod tempor invidunt."
+      text: "Designing, building and optimizing data systems for efficient processing."
     },
+  ]
 
+  export const stats = [
+    {
+      title: "tutorials",
+      number: "100",
+    },
+    {
+      title: "students",
+      number: "650",
+    },
+    {
+      title: "success",
+      number: "95",
+    },
   ]
