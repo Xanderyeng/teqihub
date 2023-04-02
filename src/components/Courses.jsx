@@ -37,9 +37,6 @@ export const Courses = () => {
            
           </div>
         </div>
-        {/* {courses.map((course, index) => (
-           <CoursesCard key={course.title} index={index} {...course}/>   
-      ))} */}
       </div>
     </section>
   );
