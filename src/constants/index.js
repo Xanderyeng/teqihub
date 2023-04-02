@@ -3,10 +3,6 @@ import {
   } from "../assets";
   
   export const navLinks = [
-    // {
-    //     id: "courses",
-    //     title: "Courses"
-    // },
     {
       id: "corporate",
       title: "Corporate",

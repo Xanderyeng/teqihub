@@ -1,4 +1,4 @@
-export {default as logo} from "./Logo.svg";
+export { default as logo } from "./Logo.svg";
 export { default as toggle } from './dark_light.svg'
 export { default as heroBg } from './Hero_Background.png'
 // export { default as dataAnalytics } from './data-analytics-icon.svg'
