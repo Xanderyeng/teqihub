@@ -1,7 +1,8 @@
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "./fonts/stylesheet.css";
-import { Navbar, Hero, Courses,  Success, Contact, Footer } from './component'
+import { Navbar, Hero, Courses, Success, Contact, Footer } from './component';
 
 const App = () => {
   return (
