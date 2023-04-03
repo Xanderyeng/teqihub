@@ -1,6 +1,6 @@
 import React from "react";
 import { stats } from "../constants/Index";
-// import { StatsCard } from "../containers";
+import { StatsCard } from "../containers";
 
 export const Success = () => {
   return (
@@ -25,9 +25,9 @@ export const Success = () => {
             </span>
           </div>
           <div className='grid grid-cols-3 gap-8 justify-center align-center grid-rows-1'>
-            {/* {stats.map((stat, index) => (
+            {stats.map((stat, index) => (
               <StatsCard key={stat.title} index={index} {...stat} />
-            ))} */}
+            ))}
           </div>
         </div>
 
