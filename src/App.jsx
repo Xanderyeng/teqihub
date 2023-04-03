@@ -1,21 +1,15 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import "./App.css";
-import "./fonts/stylesheet.css";
-import { Navbar, Hero, Courses, Success, Contact, Footer } from "./component";
+import { Navbar, Hero, Courses, Success, Contact, Footer } from "./components";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className='App relative z-0'>
+      <div className='relative z-0'>
         <Navbar />
         <Hero />
         <Courses />
-        <Success />
+        {/* <Success /> */}
         <Contact />
         <Footer />
       </div>
-    </BrowserRouter>
   );
 };
 
