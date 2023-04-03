@@ -1,5 +1,5 @@
 import React from "react";
-import { coursesList } from "../constants";
+import { coursesList } from "../constants/index";
 import { CoursesCard } from "./CoursesCard";
 
 export const Courses = () => {

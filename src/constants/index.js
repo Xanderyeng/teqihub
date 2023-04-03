@@ -1,5 +1,5 @@
 import {
-   logo, toggle, heroBg, dataAnalytics, dataEngineering, dataScience, cyberSecurity
+   logo, toggle, dataAnalytics, dataEngineering, dataScience, cyberSecurity
   } from "../assets";
   
   export const navLinks = [

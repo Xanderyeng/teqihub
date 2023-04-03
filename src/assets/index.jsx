@@ -1,13 +1,6 @@
 export { default as logo } from "./Logo.svg";
 export { default as toggle } from './dark_light.svg'
-export { default as heroBg } from './Hero_Background.png'
-// export { default as dataAnalytics } from './data-analytics-icon.svg'
-// export { default as dataScience } from './data-science.svg'
-// export { default as dataEngineering } from './data_engineering.svg'
-// export { default as cyberSecurity } from './encrypted-icon.svg'
 export { default as designSVG } from './design_svg.svg'
-
-// export { toggle, heroBg, dataAnalytics, dataEngineering, dataScience }
 
 export const dataScience = <svg width="79" height="79" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clipPath="url(#clip0_117_553)">
