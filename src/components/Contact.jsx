@@ -72,7 +72,7 @@ export const Contact = () => {
           {/* Trust the numbers: Our courses make a difference. */}
         </p>
       </div>
-      <div className=' relative z-2 grid grid-cols-10 gap-16 rounded-21 border-0 border-pink w-[75vw] py-32 px-20 bg-contact bg-100% bg-no-repeat bg-center '>
+      <div className=' relative z-2 grid grid-cols-10 gap-16 rounded-21 border-0 border-pink w-[75vw] py-10 px-20 bg-contact bg-100% bg-no-repeat bg-center '>
       <div className="absolute inset-0 z-0 h-[100%] w-[100%] rounded-21 contact-overlay"></div>
               {/* ---------- GRID COL 1 -------------- */}
         <div className='relative z-1 flex flex-col col-span-6 border-0 border-red'>
@@ -133,7 +133,7 @@ export const Contact = () => {
           <label className='flex flex-col'>
             {/* <span className='text-white font-medium mb-4'>Message</span> */}
             <textarea
-              rows='7'
+              rows='4'
               type='message'
               name='message'
               value={form.message}
