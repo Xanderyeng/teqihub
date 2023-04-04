@@ -7,8 +7,8 @@ module.exports = {
       colors: {
         primary: "hsla(0, 0%, 100%, 1)",
         secondary: "hsla(0, 3%, 35%, 0.17)",
-        "card-bg": "hsla(216, 33%, 28%, 0.6)",
-        "card-bg-2": "rgba(48, 67, 96, 0.6)",
+        "card-bg": "rgba(34, 58, 85, 1)",
+        "card-bg-2": "hsla(210, 43%, 15%, 1)",
 
         // quarternary: "rgba(137, 137, 137, 1)",
         hover: "hsla(216, 98%, 80%, 1)",
@@ -52,7 +52,8 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: "1px 1px 6px rgba(0, 0, 0, 0.15)",
+        
       },
       screens: {
         xs: "450px",

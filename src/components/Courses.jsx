@@ -10,7 +10,7 @@ export const Courses = () => {
       {/* THIS DIV CONTAINER HOLDS ALL CHILD ELEMENTS  */}
       <div className='relative max-w-[80vw] flex flex-col gap-16 justify-center items-center h-auto '>
         <div className='relative flex flex-col gap-4 items-center '>
-          <span className='font-poppins font-semibold text-center text-mask'>
+          <span className='text-[1.8rem] font-poppins font-semibold text-center text-mask'>
             Course List.
           </span>
           <h1 className='font-poppins text-[4.8rem] text-center font-semibold capitalize '>

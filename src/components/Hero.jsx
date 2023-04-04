@@ -3,11 +3,11 @@ import React from "react";
 export const Hero = () => {
   return (
     // h-[545px]
-    <section className='relative z-20 w-full h-[90vh] border-0 border-pink '>
+    <section className='relative z-29 w-full h-[90vh] border-0 border-pink '>
       {/* border-2 border-pink */}
       <div
       //  max-h-475
-        className={`absolute inset-0 top-[70px] max-h-[90vh] bg-backdrop bg-no-repeat bg-center bg-100% mx-auto flex flex-row justify-center gap-5 border-0 border-red `}
+        className={`absolute inset-0 top-[55px] max-h-[90vh] bg-backdrop bg-no-repeat bg-center bg-100% mx-auto flex flex-row justify-center gap-5 border-0 border-red `}
         //
       >
       {/* h-[455px] */}
@@ -26,6 +26,7 @@ export const Hero = () => {
                   tech journey
                 </p>
               </span>
+              <button className='capitalize '>Learn More</button>
             </div>
           </div>
         

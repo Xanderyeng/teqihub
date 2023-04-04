@@ -38,13 +38,15 @@
     hsla(216, 98%, 80%, 1) 50.36%,
     hsla(203, 100%, 77%, 1) 99.23%
   );
-  --blackBg: hsla(228, 99%, 2%, 1);
+  /* SAN JUAN - COLOR NAME */
+  /* https://imagecolorpicker.com/color-code/2a496a */
+  --mainBg: hsla(212, 43%, 23%, 1);
 }
 
 html {
   font-size: 62.5%;
   /* overflow: auto; */
-  background: var(--blackBg);
+  background: var(--mainBg);
 }
 
 body {
@@ -62,13 +64,7 @@ body {
 }
 
 .overlay {
-  background: linear-gradient(
-    90deg,
-    var(--blackBg),
-    53.2%,
-    rgba(26, 27, 31, 0.67) 67.95%,
-    rgba(26, 27, 31, 0) 58.03%
-  );
+  background: linear-gradient(90deg, #1A212F 6.64%, rgba(26, 27, 31, 0.89) 22.66%, rgba(26, 27, 31, 0) 53.94%);
 }
 
 .text-mask {

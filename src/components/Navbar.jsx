@@ -50,7 +50,7 @@ export const Navbar = () => {
 
         <div className='relative z-21 flex flex-row gap-16'>
           <img src={toggle} className='w-32' />
-          <button className='gradient-mask hover:bg-blue-700 text-[1.4rem] text-primary font-poppins font-semibold py-2 px-12 rounded-full'>
+          <button className='gradient-mask hover:bg-blue-700 text-[1.4rem] text-primary font-poppins font-semibold py-2 px-12 rounded-sm'>
             Login
           </button>
         </div>
