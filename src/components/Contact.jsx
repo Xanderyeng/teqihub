@@ -72,10 +72,10 @@ export const Contact = () => {
           {/* Trust the numbers: Our courses make a difference. */}
         </p>
       </div>
-      <div className=' relative z-2 grid grid-cols-10 gap-16 rounded-21 border-2 border-pink w-[75vw] py-32 px-20 bg-contact bg-100% bg-no-repeat bg-center '>
+      <div className=' relative z-2 grid grid-cols-10 gap-16 rounded-21 border-0 border-pink w-[75vw] py-32 px-20 bg-contact bg-100% bg-no-repeat bg-center '>
       <div className="absolute inset-0 z-0 h-[100%] w-[100%] rounded-21 contact-overlay"></div>
               {/* ---------- GRID COL 1 -------------- */}
-        <div className='relative z-1 flex flex-col col-span-6 border-2 border-red'>
+        <div className='relative z-1 flex flex-col col-span-6 border-0 border-red'>
           {/* <span className='font-poppins font-normal text-[3.2rem]'>
             <p>Drop us a message</p>
           </span>
@@ -104,7 +104,7 @@ export const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder={`Full Name`}
-              className='bg-contactBg placeholder:text-primary py-6 px-8 text-white rounded-full outlined-none border-none text-[1.4rem] font-normal'
+              className='bg-contactBg2 placeholder:text-primary py-6 px-8 text-white rounded-full outlined-none border-none text-[1.4rem] font-normal'
             />
           </label>
 
@@ -116,7 +116,7 @@ export const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder='Work email'
-              className='bg-contactBg placeholder:text-primary py-6 px-8 text-white rounded-full outlined-none border-none text-[1.4rem] font-medium'
+              className='bg-contactBg2 placeholder:text-primary py-6 px-8 text-white rounded-full outlined-none border-none text-[1.4rem] font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -127,7 +127,7 @@ export const Contact = () => {
               value={form.subject}
               onChange={handleChange}
               placeholder='Subject'
-              className='bg-contactBg placeholder:text-primary py-6 px-8 text-white rounded-full outlined-none border-none text-[1.4rem] font-medium'
+              className='bg-contactBg2 placeholder:text-primary py-6 px-8 text-white rounded-full outlined-none border-none text-[1.4rem] font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -139,7 +139,7 @@ export const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='Message'
-              className='bg-contactBg placeholder:text-primary py-6 px-6 text-white rounded-21 outlined-none border-none text-[1.4rem] font-medium'
+              className='bg-contactBg2 placeholder:text-primary py-6 px-6 text-white rounded-21 outlined-none border-none text-[1.4rem] font-medium'
             />
           </label>
           <button
@@ -154,7 +154,7 @@ export const Contact = () => {
 
         </div>
             {/* ---------- GRID COL 2 -------------- */}
-        <div className='realtive z-1 col-span-4 border-2 border-red'>contact</div>
+        <div className='realtive z-1 col-span-4 border-0 border-red'>contact</div>
       </div>
     </section>
   );

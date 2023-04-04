@@ -26,6 +26,7 @@ module.exports = {
         gray: "rgba(0, 0, 0, 0.22)",
         courseBg: "rgba(26, 33, 47, 0.5)",
         contactBg: "rgba(26, 33, 47, 0.75)",
+        contactBg2: "rgba(106, 128, 151, 0.35)",
         sectionOverlay: "rgba(26, 33, 47, 0.75)",
       },
       fontWeight: {

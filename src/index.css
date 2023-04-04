@@ -119,4 +119,5 @@ filter: blur(180px);
 
 .contact-overlay{
   background: linear-gradient(1.28deg, rgba(28, 49, 71, 0.863) -51.82%, rgba(8, 15, 21, 0.6) 64.48%);
+  color:rgba(106, 128, 151, 1),
 }
