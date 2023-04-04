@@ -2,7 +2,7 @@ import React from "react";
 
 export const Contact = () => {
   return (
-    <section className='relative z-0 h-auto flex items-center flex-col py-0 justify-center border-2 border-blue '>
+    <section className='relative z-0 h-auto flex items-center flex-col py-0 justify-center border-0 border-blue '>
       <div className='flex flex-col gap-4 relative justify-center items-center'>
         <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-mask capitalize'>
          contact us.

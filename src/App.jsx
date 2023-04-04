@@ -1,4 +1,5 @@
-import { Navbar, Hero, Courses, Success, Contact, Footer } from "./components";
+import { Navbar, Hero, Courses, Success, Contact, Footer } from "./components/index";
+// import { Navbar } from "./components";
 
 const App = () => {
   return (
@@ -6,9 +7,10 @@ const App = () => {
         <Navbar />
         <Hero />
         <Courses />
-        {/* <Success /> */}
+        <Success />
         <Contact />
         <Footer />
+        
       </div>
   );
 };

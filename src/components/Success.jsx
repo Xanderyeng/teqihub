@@ -1,6 +1,6 @@
 import React from "react";
-import { stats } from "../constants/Index";
-import { StatsCard } from "../containers";
+import { stats } from "../constants/index";
+import { StatsCard } from "../containers/StatsCard";
 
 export const Success = () => {
   return (
