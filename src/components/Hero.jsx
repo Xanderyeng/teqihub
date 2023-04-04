@@ -21,12 +21,14 @@ export const Hero = () => {
     '
             >
               <span className='font-sans'>
-                <p className='text-[4.2rem] font-semibold '>Empowering your</p>
+                <p className='text-[4.2rem] font-semibold'>Empowering your</p>
                 <p className='capitalize font-bold text-mask text-[4.2rem]'>
                   tech journey
                 </p>
               </span>
-              <button className='capitalize '>Learn More</button>
+              <div className='pt-16'>
+              <button className='capitalize outline outline-2 outline-primary px-14 py-4 text-[1.6rem] text-primary hover:text-[#eaedf0] hover:-translate-y-1 hover:scale-105 duration-300'>Learn More</button>
+              </div>
             </div>
           </div>
         
