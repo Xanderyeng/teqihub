@@ -116,3 +116,7 @@ background-clip: text;
   background: radial-gradient(146.3% 1115.38% at -36.97% -45%, rgba(154, 194, 254, 1) 49.89%, rgba(136, 210, 255, 1) 77.08%);
 filter: blur(180px);
 }
+
+.contact-overlay{
+  background: linear-gradient(1.28deg, rgba(28, 49, 71, 0.863) -51.82%, rgba(8, 15, 21, 0.6) 64.48%);
+}

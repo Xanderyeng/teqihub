@@ -25,8 +25,8 @@ module.exports = {
         green: "green",
         gray: "rgba(0, 0, 0, 0.22)",
         courseBg: "rgba(26, 33, 47, 0.5)",
-        overlay: "rgba(0, 117, 73, 1)",
-        sectionOverlay: "rgba(26, 33, 47, 0.5)",
+        contactBg: "rgba(26, 33, 47, 0.75)",
+        sectionOverlay: "rgba(26, 33, 47, 0.75)",
       },
       fontWeight: {
         thin: "100",
@@ -61,7 +61,7 @@ module.exports = {
       backgroundImage: {
         backdrop: "url('/src/assets/backdrop.png')",
         stats: "url('/src/assets/Stats.webp')",
-        contactBg: "url(/src/assets/contact.png",
+        contact: "url(/src/assets/contact.webp)",
       },
       backgroundSize: {
         auto: "auto",
