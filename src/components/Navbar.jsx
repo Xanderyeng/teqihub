@@ -4,7 +4,7 @@ import { Sling as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
 import { staggerContainer } from "../utils/motion";
 import { navVariants } from "../utils/motion";
-import { navLinks } from "../constants/Index";
+import { navLinks } from "../constants/index";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { logo, toggle } from "../assets";
