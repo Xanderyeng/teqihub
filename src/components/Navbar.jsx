@@ -16,9 +16,9 @@ export const Navbar = () => {
   const [active, setActive] = useState("");
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-4 fixed top-0 z-20 black nav-bg`}
+      className={` w-full flex items-center py-4 fixed top-0 z-20 black nav-bg`}
     >
-      <div className='w-full flex justify-between items-center max-w-screen-lg mx-auto border-0 border '>
+      <div className='w-full flex justify-between items-center max-w-[85vw] mx-auto border-0 border '>
         <div className='flex flex-row flex-nowrap justify-right items-center gap-32 '>
           <Link
             to='/'
