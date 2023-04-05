@@ -64,7 +64,7 @@ export const Contact = () => {
     
       <div className='flex flex-col gap-4 relative justify-center items-center'>
         <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-mask capitalize'>
-          contact us.
+          contact us
         </span>
         <p className='font-poppins text-[3.2rem] font-semibold capitalize'>
           {/* Accelerate your growth */}
@@ -90,7 +90,7 @@ export const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <h3 className={`font-poppins font-normal text-[3.2rem]`}>Drop us a message</h3>
-        <p className={`font-secondary text-[1.4rem]`}>We will get back to you soon as possible.</p>
+        <p className={`font-secondary font-light text-[1.4rem] pt-6`}>We will get back to you soon as possible.</p>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -115,7 +115,7 @@ export const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder='Work email'
+              placeholder='email'
               className='bg-contactBg2 placeholder:text-primary py-6 px-8 text-white rounded-full outlined-none border-none text-[1.4rem] font-medium'
             />
           </label>

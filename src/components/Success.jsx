@@ -10,16 +10,16 @@ export const Success = () => {
         {/* LEFT GRID BOX COL */}
 
         <div className='flex flex-col justify-start align-left py-16 border-0 border-red'>
-          <div className='relative flex flex-col gap-4 items-start border-0 border-blue'>
+          <div className='relative flex flex-col gap-4 items-start text-primary border-0 border-blue'>
             <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-mask capitalize'>
               our Success.
             </span>
             <p className='font-poppins text-[3.2rem] text-left font-semibold '>
               {/* Accelerate your growth */}
-              Start your journey today.
+              Start your journey today
               {/* Trust the numbers: Our courses make a difference. */}
             </p>
-            <span className='font-inter text-[1.8rem] py-10 font-light text-text-gray'>
+            <span className='font-inter text-[1.8rem] py-10 font-light text-primary'>
               Become part of our success story and join a community of thousands
               of satisfied graduates
             </span>

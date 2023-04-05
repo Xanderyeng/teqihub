@@ -15,8 +15,8 @@ export const Navbar = () => {
     <nav
       className={`${styles.paddingX} w-full flex items-center py-4 fixed top-0 z-20 black nav-bg`}
     >
-      <div className='w-full flex justify-between items-center max-w-screen-lg mx-auto '>
-        <div className='flex flex-row flex-nowrap justify-start items-center gap-32 '>
+      <div className='w-full flex justify-between items-center max-w-screen-lg mx-auto border-2 border '>
+        <div className='flex flex-row flex-nowrap justify-right items-center gap-32 '>
           <Link
             to='/'
             className='flex items-center gap-2'
@@ -33,7 +33,11 @@ export const Navbar = () => {
             {/* &nbsp; */}
           </Link>
 
-          <ul className='list-none hidden sm:flex flex-row gap-10'>
+          
+        </div>
+
+        <div className='relative z-21 flex flex-row gap-16  border-2 border'>
+        <ul className='list-none hidden sm:flex flex-row gap-10  border-2 border'>
             {navLinks.map((link) => (
               <li
                 key={link.id}
@@ -46,11 +50,8 @@ export const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
-
-        <div className='relative z-21 flex flex-row gap-16'>
-          <img src={toggle} className='w-32' />
-          <button className='gradient-mask hover:bg-blue-700 text-[1.4rem] text-primary font-poppins font-semibold py-2 px-12 rounded-sm'>
+          {/* <img src={toggle} className='w-32' /> */}
+          <button className='gradient-mask hover:bg-blue-700 text-[16px] text-primary font-poppins font-light py-2 px-12 rounded-md'>
             Login
           </button>
         </div>

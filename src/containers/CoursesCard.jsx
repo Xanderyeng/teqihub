@@ -26,7 +26,7 @@ export const CoursesCard = ({ index, icon, title, text }) => {
           <p className='text-primary text-center capitalize text-[1.8rem] pt-6'>
             {title}
           </p>
-          <p className='text-text-gray text-center text-[1.4rem] pt-6'>
+          <p className='text-text-primary text-center text-[1.4rem] pt-6'>
             {text}
           </p>
           <div className='relative mt-10 z-0 p-[1px] rounded-21 bg-gradient-to-b from-[#DE89FC] via-[#9AC2FE] to-[#88D2FF]'>

@@ -16,7 +16,7 @@ export const StatsCard = ({ title, number, icon, index }) => {
           )}
           {icon}
         </span>
-        <p className='font-inter text-[1.8rem] font-light capitalize text-text-gray'>
+        <p className='font-inter text-[1.8rem] font-light capitalize text-primary'>
           &nbsp;&nbsp;{title}
         </p>
       </div>

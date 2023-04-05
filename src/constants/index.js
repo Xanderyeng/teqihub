@@ -7,6 +7,24 @@ import {
 
 export const navLinks = [
   {
+    id:"courses",
+    title: "Courses",
+    submenu: [
+      {
+        title: 'data analytics',
+        url: 'web-design',
+      },
+      {
+        title: 'web development',
+        url: 'web-dev',
+      },
+      {
+        title: 'SEO',
+        url: 'seo',
+      },
+    ],
+  },
+  {
     id: "corporate",
     title: "Corporate",
   },
@@ -23,13 +41,6 @@ export const coursesList = [
     text: "Analyzing data to uncover insights and improve outcomes",
   },
   {
-    title: "cyber security",
-    icon: cyberSecurity,
-    text: "Defending against digital threats and safeguarding sensitive information.",
-    //
-    // Protecting computer systems and data from unauthorized access or attack.
-  },
-  {
     title: "data science",
     icon: dataScience,
     text: "Extracting insights and knowledge from data to drive better decisions.",
@@ -38,6 +49,13 @@ export const coursesList = [
     title: "data engineering",
     icon: dataEngineering,
     text: "Designing, building and optimizing data systems for efficient processing.",
+  },
+  {
+    title: "cyber security",
+    icon: cyberSecurity,
+    text: "Defending against digital threats and safeguarding sensitive information.",
+    //
+    // Protecting computer systems and data from unauthorized access or attack.
   },
 ];
 
