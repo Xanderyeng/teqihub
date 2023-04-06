@@ -6,8 +6,8 @@ import { staggerContainer } from "../utils/motion";
 import { navVariants } from "../utils/motion";
 import { navLinks } from "../constants/index";
 // menu items
-import { menuItems } from '../constants/menuItems';
-import MenuItems from './MenuItems';
+import { menuItems } from "../constants/menuItems";
+import MenuItems from "./MenuItems";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { logo, toggle } from "../assets";
@@ -16,7 +16,7 @@ export const Navbar = () => {
   const [active, setActive] = useState("");
   return (
     <nav
-      className={`w-full flex items-center py-4 fixed top-0 z-20 black nav-bg`}
+      className={`w-full flex items-center py-2 fixed top-0 z-20 black nav-bg`}
     >
       <div className='w-full flex justify-between items-center max-w-[85vw] mx-auto border-0 border '>
         <div className='flex flex-row flex-nowrap justify-right items-center gap-32 '>
@@ -34,21 +34,16 @@ export const Navbar = () => {
               className='w-[12em] h-auto object-contain'
             />
             {/* &nbsp; */}
-          </Link>          
+          </Link>
         </div>
         <div className='relative z-21 flex flex-row gap-16 border-0 border'>
-        <ul className='list-none hidden sm:flex flex-row gap-10 border-0 border'>
-
-        {menuItems.map((menu, index) => {
-          const depthLevel = 0;
-          return (
-            <MenuItems
-              items={menu}
-              key={index}
-              depthLevel={depthLevel}
-            />
-          );
-        })}
+          <ul className='list-none hidden sm:flex flex-row gap-10 border-0 border'>
+            {menuItems.map((menu, index) => {
+              const depthLevel = 0;
+              return (
+                <MenuItems items={menu} key={index} depthLevel={depthLevel} />
+              );
+            })}
 
             {/* {navLinks.map((link, index) => (
               <li
@@ -63,9 +58,11 @@ export const Navbar = () => {
             ))} */}
           </ul>
           {/* <img src={toggle} className='w-32' /> */}
-          <button className='gradient-mask hover:bg-blue-700 text-[16px] text-primary font-poppins font-light py-2 px-12 rounded-md'>
-            Login
-          </button>
+          <div className='flex items-center '>
+            <button className='gradient-mask hover:bg-blue-700 text-[1.6rem] text-primary font-poppins font-light py-[6px] px-[48px] rounded-md'>
+              Login
+            </button>
+          </div>
         </div>
       </div>
     </nav>

@@ -4,6 +4,10 @@ export const menuItems = [
   //   url: '/',
   // },
   {
+    title: 'About',
+    url: '/about',
+  },
+  {
     title: 'Courses',
     url: '/courses',
     submenu: [

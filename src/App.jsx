@@ -6,10 +6,10 @@ const App = () => {
       <div className='relative z-0'>
         <Navbar />
         <Hero />
-        <Courses />
-        <Success />
-        <Contact />
-        <Footer />
+        {/* <Courses /> */}
+        {/* <Success /> */}
+        {/* <Contact /> */}
+        {/* <Footer /> */}
         
       </div>
   );
