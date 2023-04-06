@@ -59,7 +59,7 @@ export const Footer = () => {
 
   return (
     <footer className='relative z-0 h-auto flex items-center flex-col gap-2 pb-4 justify-center border-0 border-blue '>
-      <div className='grid grid-cols-4 gap-16 max-w-[75vw] pt-40 pb-28 border-b-2 border-contactBg2'>
+      <div className='grid grid-cols-4 gap-16 w-[75vw] pt-40 pb-28 border-b-2 border-contactBg2'>
         {/*  ------- COLUMN 1 ------- */}
         <div className='flex flex-col gap-16 justify-center border-0 border'>
           <img
