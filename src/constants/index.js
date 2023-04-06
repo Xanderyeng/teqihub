@@ -7,20 +7,34 @@ import {
 
 export const navLinks = [
   {
-    id:"courses",
+    id: "courses",
     title: "Courses",
     submenu: [
       {
-        title: 'data analytics',
-        url: 'web-design',
+        title: "data analytics",
+        url: "data-analytics",
+        submenu: [
+          {
+            title: "SQL",
+            url: "sql",
+          },
+          {
+            title: "Python with Pandas",
+            url: "python-with-pandas",
+          },
+          {
+            title: "PowerBi with DAx",
+            url: "powerbi-with-dax",
+          },
+        ],
       },
       {
-        title: 'web development',
-        url: 'web-dev',
+        title: "web development",
+        url: "web-dev",
       },
       {
-        title: 'SEO',
-        url: 'seo',
+        title: "SEO",
+        url: "seo",
       },
     ],
   },

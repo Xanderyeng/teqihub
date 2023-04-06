@@ -64,7 +64,7 @@ const MenuItems = ({ items, depthLevel }) => {
             {depthLevel > 0 &&
             window.innerWidth < 960 ? null : depthLevel > 0 &&
               window.innerWidth > 960 ? (
-              <span>&raquo;</span>
+              <span>&nbsp;&raquo;</span>
             ) : (
               <span className="arrow" />
             )}
