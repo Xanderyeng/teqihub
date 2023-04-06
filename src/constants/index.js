@@ -1,5 +1,5 @@
 import { IonIcon } from "@ionic/react";
-import { callOutline, mailOutline, earthOutline } from 'ionicons/icons'
+import { callOutline, mailOutline, earthOutline } from "ionicons/icons";
 import {
   dataAnalytics,
   dataEngineering,
@@ -9,40 +9,16 @@ import {
 
 export const navLinks = [
   {
-    id: "courses",
-    title: "Courses",
-    submenu: [
-      {
-        title: "data analytics",
-        url: "data-analytics",
-        submenu: [
-          {
-            title: "SQL",
-            url: "sql",
-          },
-          {
-            title: "Python with Pandas",
-            url: "python-with-pandas",
-          },
-          {
-            title: "PowerBi with DAx",
-            url: "powerbi-with-dax",
-          },
-        ],
-      },
-      {
-        title: "web development",
-        url: "web-dev",
-      },
-      {
-        title: "SEO",
-        url: "seo",
-      },
-    ],
+    id: "about",
+    title: "about",
   },
   {
-    id: "corporate",
-    title: "Corporate",
+    id: "courses",
+    title: "courses",
+  },
+  {
+    title: "corporate",
+    url: "corporate",
   },
   {
     id: "partner",
@@ -91,23 +67,37 @@ export const stats = [
     number: "650",
     icon: "+",
   },
-  
 ];
 
 export const contactInfo = [
   {
     icon: callOutline,
     info: "+ 1800 145 276",
-    subInfo:"free support",
+    subInfo: "free support",
   },
   {
     icon: earthOutline,
     info: "www.teqihub.com",
-    subInfo:"our official website",
+    subInfo: "our official website",
   },
   {
     icon: mailOutline,
     info: "info@teqihub.com",
-    subInfo:"help email support",
+    subInfo: "help email support",
   },
-]
+];
+
+export const addresses = [
+  {
+    data: "03, Antarctica",
+  },
+  {
+    data: "Galaxy 1, Earth - 4",
+  },
+  {
+    data: "info@teqihub.com",
+  },
+  {
+    data: "+ 1800 145 276",
+  },
+];

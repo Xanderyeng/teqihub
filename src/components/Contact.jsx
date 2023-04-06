@@ -51,6 +51,7 @@ export const Contact = () => {
           setForm({
             name: "",
             email: "",
+            subject: "",
             message: "",
           });
         },

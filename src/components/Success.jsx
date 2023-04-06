@@ -4,9 +4,9 @@ import React from "react";
 
 export const Success = () => {
   return (
-    <section className='relative z-0 h-auto flex items-center py-0 justify-center border-0 border-blue '>
-      <div className='absolute z-0 bottom-[30%] left-[12%] success-blur rounded-[100%] w-[15vw] h-[15vh]' />
-      <div className='grid grid-cols-2 gap-32 border-0 border-pink h-[100%] w-[75vw] py-32'>
+    <section className='relative z-0 h-auto flex items-center py-0 justify-center border-2 border-blue '>
+      {/* <div className='absolute z-0 bottom-[30%] left-[12%] success-blur rounded-[100%] w-[15vw] h-[15vh]' /> */}
+      <div className='grid grid-cols-2 gap-32 border-2 border-pink h-[100%] max-w-[75vw] py-32'>
         {/* LEFT GRID BOX COL */}
 
         <div className='flex flex-col justify-start align-left py-16 border-0 border-red'>
