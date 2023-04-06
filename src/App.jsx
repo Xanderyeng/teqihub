@@ -7,8 +7,8 @@ const App = () => {
         <Navbar />
         <Hero />
         <Courses />
-        {/* <Success /> */}
-        {/* <Contact /> */}
+        <Success />
+        <Contact />
         {/* <Footer /> */}
         
       </div>

@@ -63,7 +63,7 @@ export const Contact = () => {
     <section className='relative z-0 h-auto flex items-center flex-col gap-28 py-0 justify-center border-0 border-blue '>
     
       <div className='flex flex-col gap-4 relative justify-center items-center'>
-        <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-mask capitalize'>
+        <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-white capitalize'>
           contact us
         </span>
         <p className='font-poppins text-[3.2rem] font-semibold capitalize'>

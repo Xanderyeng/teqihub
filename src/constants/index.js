@@ -75,6 +75,11 @@ export const coursesList = [
 
 export const stats = [
   {
+    title: "success",
+    number: "95",
+    icon: "%",
+  },
+  {
     title: "tutorials",
     number: "100",
     icon: "+",
@@ -84,9 +89,5 @@ export const stats = [
     number: "650",
     icon: "+",
   },
-  {
-    title: "success",
-    number: "95",
-    icon: "%",
-  },
+  
 ];

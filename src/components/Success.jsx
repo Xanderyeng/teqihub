@@ -1,6 +1,6 @@
 import React from "react";
-import { stats } from "../constants/index";
-import { StatsCard } from "../containers/StatsCard";
+// import { stats } from "../constants/index";
+// import { StatsCard } from "../containers/StatsCard";
 
 export const Success = () => {
   return (
@@ -11,7 +11,7 @@ export const Success = () => {
 
         <div className='flex flex-col justify-start align-left py-16 border-0 border-red'>
           <div className='relative flex flex-col gap-4 items-start text-primary border-0 border-blue'>
-            <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-mask capitalize'>
+            <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-white capitalize'>
               our Success.
             </span>
             <p className='font-poppins text-[3.2rem] text-left font-semibold '>
@@ -24,11 +24,7 @@ export const Success = () => {
               of satisfied graduates
             </span>
           </div>
-          <div className='grid grid-cols-3 gap-8 justify-center align-center grid-rows-1'>
-            {stats.map((stat, index) => (
-              <StatsCard key={stat.title} index={index} {...stat} />
-            ))}
-          </div>
+          
         </div>
 
         {/* IMAGE COL GRID BOX */}
