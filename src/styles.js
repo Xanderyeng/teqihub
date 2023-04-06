@@ -13,6 +13,8 @@ const styles = {
       "text-white font-black md:text-[70px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText:
       "sm:text-[18px] text-[14px] text-primary uppercase tracking-wider",
+      boxOutline:
+      "hover:outline hover:outline-1 hover:outline-white",
   };
   
   export { styles };

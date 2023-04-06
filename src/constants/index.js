@@ -1,3 +1,5 @@
+import { IonIcon } from "@ionic/react";
+import { callOutline, mailOutline, earthOutline } from 'ionicons/icons'
 import {
   dataAnalytics,
   dataEngineering,
@@ -91,3 +93,21 @@ export const stats = [
   },
   
 ];
+
+export const contactInfo = [
+  {
+    icon: callOutline,
+    info: "+ 1800 145 276",
+    subInfo:"free support",
+  },
+  {
+    icon: earthOutline,
+    info: "www.teqihub.com",
+    subInfo:"our official website",
+  },
+  {
+    icon: mailOutline,
+    info: "info@teqihub.com",
+    subInfo:"help email support",
+  },
+]

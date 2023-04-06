@@ -13,6 +13,7 @@ module.exports = {
         // quarternary: "rgba(137, 137, 137, 1)",
         hover: "hsla(216, 98%, 80%, 1)",
         "text-gray": "hsla(198, 8%, 68%, 1)",
+        icons: "hsla(314, 65%, 85%,1)",
         blue: "blue",
         pink: "pink",
         peach: "peachpuff",

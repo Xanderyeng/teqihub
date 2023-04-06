@@ -96,6 +96,7 @@ background-clip: text;
 
 .card-gradient:hover {
   background-image: var(--gradient);
+  color: #d1d1d1;
 }
 
 .card-svg svg {

@@ -17,7 +17,7 @@ export const Courses = () => {
             courses
           </h1>
           <div className='w-full'></div>
-          <span className='w-[65%] font-inter text-[1.4rem] text-center font-light text-white'>
+          <span className='w-[65%] font-inter text-[1.6rem] text-center font-light text-white'>
             Interactive and effective training options customized to your unique
             needs and skillset, including self-paced online courses with
             workplace capstone projects, to help you gain practical experience
