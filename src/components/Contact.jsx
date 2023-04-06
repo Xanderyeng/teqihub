@@ -142,9 +142,10 @@ export const Contact = () => {
               className='bg-contactBg2 placeholder:text-primary py-6 px-6 text-white rounded-21 outlined-none border-none text-[1.4rem] font-medium'
             />
           </label>
+          {/*  <button className='relative px-14 py-4 text-primary capitalize text-[1.6rem] bg-secondary rounded-md hover:bg-transparent hover:text-white'>Explore</button> */}
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
+            className='bg-tertiary px-14 py-4 text-primary capitalize text-[1.6rem] outline outline-1 outline-white w-fit text-white font-medium rounded-md hover:bg-white hover:text-card-bg-2'
           >
             {loading ? "Sending..." : "Send"}
           </button>
