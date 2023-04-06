@@ -1,11 +1,8 @@
 import React, { useState, useRef } from "react";
-import { IonIcon } from "@ionic/react";
-import { callOutline } from 'ionicons/icons'
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
-import { q } from "../assets/Index";
 import { contactInfo } from "../constants";
 import { InfoStrip } from "../containers/InfoStrip";
 
