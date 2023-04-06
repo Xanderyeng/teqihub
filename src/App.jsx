@@ -6,7 +6,7 @@ const App = () => {
       <div className='relative z-0'>
         <Navbar />
         <Hero />
-        {/* <Courses /> */}
+        <Courses />
         {/* <Success /> */}
         {/* <Contact /> */}
         {/* <Footer /> */}
