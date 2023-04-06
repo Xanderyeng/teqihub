@@ -1,7 +1,5 @@
 import React from "react";
 import { IonIcon } from "@ionic/react";
-import { callOutline, mailOutline } from "ionicons/icons";
-import { q } from "../assets/Index";
 
 export const InfoStrip = ({ icon, info, subInfo }) => {
   return (
