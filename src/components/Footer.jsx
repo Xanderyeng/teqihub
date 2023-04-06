@@ -61,21 +61,21 @@ export const Footer = () => {
     <footer className='relative z-0 h-auto flex items-center flex-col gap-2 pb-4 justify-center border-0 border-blue '>
       <div className='grid grid-cols-4 gap-16 max-w-[75vw] pt-40 pb-28 border-b-2 border-contactBg2'>
         {/*  ------- COLUMN 1 ------- */}
-        <div className='flex flex-col gap-14 justify-between border-0 border'>
+        <div className='flex flex-col gap-16 justify-center border-0 border'>
           <img
             src={logo}
             alt='logo'
             className='w-[14em] h-auto object-contain'
           />
-          <div className='flex flex-col gap-10 border-0 border-red'>
-            <span className='font-normal text-[1.4rem]'>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-            </span>
+          <div className='flex flex-col gap-0 border-0 border-red'>
+            {/* <span className='font-normal text-[1.4rem]'>
+              <p>Find us</p>
+            </span> */}
             <span className='flex flex-row gap-8'>
-              <IonIcon icon={logoFacebook} className='text-[2.2em]' />
-              <IonIcon icon={logoTwitter} className='text-[2.2em]' />
-              <IonIcon icon={logoInstagram} className='text-[2.2em]' />
-              <IonIcon icon={logoWhatsapp} className='text-[2.2em]' />
+              <IonIcon icon={logoFacebook} className='text-[2.2em] hover:cursor-pointer hover:text-icons' />
+              <IonIcon icon={logoTwitter} className='text-[2.2em] hover:cursor-pointer hover:text-icons' />
+              <IonIcon icon={logoInstagram} className='text-[2.2em] hover:cursor-pointer hover:text-icons' />
+              <IonIcon icon={logoWhatsapp} className='text-[2.2em] hover:cursor-pointer hover:text-icons' />
             </span>
           </div>
         </div>
