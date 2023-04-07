@@ -1,6 +1,7 @@
 export { default as logo } from "./Logo.svg";
 export { default as toggle } from './dark_light.svg'
 export { default as q } from './q-vector.svg'
+export { default as corporate } from './corporate.png'
 
 export const dataScience = <svg width="79" height="79" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clipPath="url(#clip0_117_553)">

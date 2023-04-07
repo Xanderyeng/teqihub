@@ -4,7 +4,7 @@ import { CoursesCard } from "../containers/CoursesCard";
 
 export const Courses = () => {
   return (
-    <section className='relative z-10 h-auto flex items-center py-32 justify-center '>
+    <section id='courses' className='relative z-10 h-auto flex items-center py-32 justify-center '>
       {/* ADDS THE RADIAL BACKGROUND BLUR GLOW */}
       <div className='absolute z-0 top-[45%] section-radial-bg rounded-[100%] w-[45vw] h-[5vh]' />
       {/* THIS DIV CONTAINER HOLDS ALL CHILD ELEMENTS  */}

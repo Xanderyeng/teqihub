@@ -67,6 +67,7 @@ export const Footer = () => {
             alt='logo'
             className='w-[14em] h-auto object-contain'
           />
+          <React.Fragment></React.Fragment>
           <div className='flex flex-col gap-0 border-0 border-red'>
             {/* <span className='font-normal text-[1.4rem]'>
               <p>Find us</p>

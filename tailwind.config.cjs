@@ -64,6 +64,7 @@ module.exports = {
         backdrop: "url('/src/assets/backdrop.png')",
         stats: "url('/src/assets/Stats.webp')",
         contact: "url(/src/assets/contact.webp)",
+        corporate: "url(/src/assets/corporate.png)",
       },
       backgroundSize: {
         auto: "auto",

@@ -38,7 +38,7 @@ const MenuItems = ({ items, depthLevel }) => {
   const closeDropdown = () => {
     dropdown && setDropdown(false);
   };
-
+  
   return (
     <li
       className="menu-items "
@@ -97,7 +97,7 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <Link to={items.url}>{items.title}</Link>
+        <Link to={`${items.url}`}>{items.title}</Link>
       )}
     </li>
   );
