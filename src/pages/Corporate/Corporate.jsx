@@ -1,5 +1,5 @@
 import React from "react";
-import { corporate } from "../../assets/Index";
+import corporate from '../../assets/corporate.png'
 import { Contact } from "../../components";
 import { corp } from "../../constants";
 
