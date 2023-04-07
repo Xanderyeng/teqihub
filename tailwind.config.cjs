@@ -61,7 +61,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        backdrop: "url('/src/assets/backdrop.png')",
+        backdrop: "url('/src/assets/backdrop.avif')",
         stats: "url('/src/assets/Stats.webp')",
         contact: "url(/src/assets/contact.webp)",
         corporate: "url(/src/assets/corporate.png)",
