@@ -52,7 +52,7 @@ html {
 }
 
 body {
-  height: 300vh;
+  /* height: 300vh; */
   width: 100%;
   overflow-x: hidden;
 }
