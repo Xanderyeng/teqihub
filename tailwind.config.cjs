@@ -65,6 +65,7 @@ module.exports = {
         stats: "url('/src/assets/Stats.webp')",
         contact: "url(/src/assets/contact.webp)",
         corporate: "url(/src/assets/corporate.png)",
+        partner: "url('/src/assets/partner.avif')",
       },
       backgroundSize: {
         auto: "auto",
