@@ -107,6 +107,13 @@ module.exports = {
         100: "100px",
         475: "475px",
       },
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        roman: 'upper-roman',
+      },
     },
   },
   plugins: [],

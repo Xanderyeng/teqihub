@@ -3,18 +3,30 @@ import corporate from '../../assets/corporate.avif'
 import { Contact } from "../../components";
 import { corp } from "../../constants";
 
-export const Corporate = () => {
+export const Corporate = (scrollToId) => {
+  React.useEffect(() => {
+    if (scrollToId) {
+      const element = document.getElementById(scrollToId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [scrollToId]);
   return (
-    <section className='relative z-10 w-full h-auto top-[51px] border-0 border-red'>
+    <section id='corporate' className='relative z-10 w-full h-auto top-[51px] border-0 border-red'>
       <div className='relative z-0 top-0 flex flex-col items-center gap-24 py-16 border-0 border'>
                        {/* ---------- HEADING ---------- */}
         <div className='flex flex-col gap-4 relative justify-center w-[75vw] items-center border-0 border-blue'>
-          <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-white capitalize'>
+          
+          {/* <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-white capitalize'>
             corporate
-          </span>
+          </span> */}
           <p className='font-poppins text-[3.2rem] font-semibold capitalize'>
             corporate training
           </p>
+          <span className='font-poppins font-semibold text-[2.2rem] flex flex-col text-white capitalize'>
+          Empower Your Team with State-of-the-Art Data Techniques for Unmatched Success
+          </span>
         </div>
                                 {/* -------- IMAGE ------- */}
         <div className='relative z-0 w-[55vw] rounded-3xl border-0 border-green '>

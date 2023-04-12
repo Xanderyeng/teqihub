@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
-import { addresses, navLinks } from "../constants/index";
+import { Link } from "react-router-dom";
+import { addresses, navLinks, footerLinks } from "../constants/index";
 import { IonIcon } from "@ionic/react";
 import { styles } from "../styles";
 import { logo } from "../assets";
@@ -8,6 +9,7 @@ import {
   logoTwitter,
   logoInstagram,
   logoWhatsapp,
+  openOutline,
 } from "ionicons/icons";
 
 export const Footer = () => {
@@ -85,14 +87,22 @@ export const Footer = () => {
           {navLinks.map((link, index) => (
             <li
               key={index}
-              className={`${
+              className={`#${
                 active === link.title ? "text-hover" : "text-primary"
               } hover:text-hover text-[1.4rem] gap-8 font-light cursor-pointer list-none capitalize `}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <Link to={`${link.id}`}>{link.title}</Link>
             </li>
           ))}
+          {footerLinks.map((link, index) => (
+              <ol key={index} className={`${
+                active === link.title ? "text-hover" : "text-primary"
+              } hover:text-hover text-[1.4rem] gap-8 font-light cursor-pointer list-none capitalize `}
+              onClick={() => setActive(link.title)} >
+              <Link to={`${link.id}`}>{link.title} <IonIcon icon={openOutline} className='text-[1em] text-center text-hover hover:cursor-pointer hover:text-icons' /></Link>
+              </ol>
+            ))}
         </div>
         {/*  ------- COLUMN 3 ------- */}
         <div className='flex-col px-16 py-4 sm:flex gap-4'>

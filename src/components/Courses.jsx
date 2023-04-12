@@ -17,11 +17,12 @@ export const Courses = () => {
             courses
           </h1>
           <div className='w-full'></div>
-          <span className='w-[65%] font-inter text-[1.6rem] text-center font-light text-white'>
-            Interactive and effective training options customized to your unique
+          <span className='w-[100%] font-inter text-[1.6rem] text-center font-light text-white'>
+            {/* Interactive and effective training options customized to your unique
             needs and skillset, including self-paced online courses with
             workplace capstone projects, to help you gain practical experience
-            and take your career to the next level.
+            and take your career to the next level. */}
+            Elevate Your Career with Our Transformational Courses
           </span>
         </div>
         {/* DIV TO HOLD THE CARDS */}
