@@ -84,12 +84,12 @@ export const contactInfo = [
   {
     icon: callOutline,
     info: "+ 1800 145 276",
-    subInfo: "free support",
+    subInfo: "technical support",
   },
   {
     icon: earthOutline,
-    info: "www.teqihub.com",
-    subInfo: "our official website",
+    info: "enquiry",
+    subInfo: "courses inquiry",
   },
   {
     icon: mailOutline,
