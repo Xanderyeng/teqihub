@@ -3,7 +3,7 @@ import corporate from '../../assets/corporate.avif'
 import { Contact } from "../../components";
 import { corp } from "../../constants";
 
-export const Corporate = (scrollToId) => {
+export const Corporate = ({ scrollToId }) => {
   React.useEffect(() => {
     if (scrollToId) {
       const element = document.getElementById(scrollToId);

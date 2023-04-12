@@ -2,7 +2,7 @@ import React from 'react'
 import { Contact } from '../../components'
 import { partnership } from '../../constants'
 
-export const Partner = (scrollToId) => {
+export const Partner = ({ scrollToId }) => {
   React.useEffect(() => {
     if (scrollToId) {
       const element = document.getElementById(scrollToId);

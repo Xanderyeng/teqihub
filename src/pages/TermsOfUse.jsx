@@ -1,6 +1,14 @@
 import React from 'react'
 
-export const TermsOfUse = () => {
+export const TermsOfUse = ({ scrollToId }) => {
+  React.useEffect(() => {
+    if (scrollToId) {
+      const element = document.getElementById(scrollToId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [scrollToId]);
   return (
     <section className='relative z-10 w-full h-auto top-[51px] border-0 border-red'>
     <div className='relative z-0 top-0 flex flex-col items-center gap-24 py-16 border-0 border'>
