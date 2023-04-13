@@ -2,6 +2,7 @@ import React from "react";
 import corporate from "../../assets/corporate.avif";
 import { Contact } from "../../components";
 import { corp } from "../../constants";
+import { cyberSecurity } from "../../assets";
 // import image1 from '../../assets/image3'
 
 export const Corporate = ({ scrollToId }) => {
@@ -60,16 +61,56 @@ export const Corporate = ({ scrollToId }) => {
 
         {/*  -------- TEXT CONTENT -------- */}
         <div className=' w-[70vw] flex flex-col justify-center py-8'>
+              {/* <div className='w-[600px] h-[180px] bg-peach rounded-21'></div> */}
           <span className='flex flex-col gap-16'>
-            {corp.map((data, index) => (
-              <p
-                key={index}
-                index={index}
-                className='font-white font-extralight font-inter text-[1.8rem]'
-              >
+                                  {/* --------------------    -------------------- */}
+          <div className="flex flex-row gap-44">
+            <div className="flex items-center justify-center w-[800px] h-[200px] bg-contactBg2 rounded-21 rotate-45 ">
+            <span className=' w-24 h-24 card-svg -rotate-45'>
+            {cyberSecurity}
+          </span>
+            </div>
+            <div>
+              <p className='font-white w-[90%] font-extralight font-inter text-[1.8rem]' >
+              In today's corporate world, technology is developing at an unprecedented pace, and staying ahead of the curve is critical for business success. At TEQihub, we understand the importance of having a highly skilled workforce that can navigate the ever-changing technological landscape with ease.
+              </p>
+            </div>
+          </div>
+                                  {/* --------------------    -------------------- */}
+          <div className="flex flex-row gap-4 items-center rounded-21 pt-32 ">
+            <div>
+              <p className='font-white w-[90%] pl-32 font-extralight font-inter text-[1.8rem]' >
+              We offer customized IT corporate training solutions that are tailored to meet the unique needs of your organization. Our primary goal is to empower your employees with the knowledge and skills they need to use and manage technology effectively to achieve your business objectives.
+              </p>
+            </div>
+            <div className=" flex items-center justify-center  w-[750px] h-[200px] bg-contactBg2 rounded-21 rotate-45 ">
+            <span className=' w-24 h-24 card-svg -rotate-45'>
+            {cyberSecurity}
+          </span>
+            </div>
+          </div>
+                                 {/* --------------------    -------------------- */}
+          <div className="flex flex-row gap-32 pt-32">
+            <div className=" flex items-center justify-center  w-[1000px] h-[200px] bg-contactBg2 rounded-21 rotate-45 ">
+            <span className=' w-24 h-24 card-svg -rotate-45'>
+            {cyberSecurity}
+          </span>
+            </div>
+            <div>
+              <p className='font-white w-[80%] font-extralight font-inter text-[1.8rem]' >
+              Investing in your employees' technology skills can yield numerous benefits for your organization, such as increased productivity, improved job performance, reduced employee turnover, and enhanced competitiveness in the market. By partnering with TEQihub, you can ensure that your workforce is equipped to tackle the challenges of the digital age and position your organization for sustained success.
+              </p>
+            </div>
+          </div>
+            {/* {corp.map((data, index) => (
+              <div >
+              <div key={index} index={index} className='flex flex-row gap-16'>
+              <p className='font-white font-extralight font-inter text-[1.8rem]' >
                 {data.text}
               </p>
-            ))}
+              </div>
+              </div>
+            ))} */}
           </span>
         </div>
       </div>
