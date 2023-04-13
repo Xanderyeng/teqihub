@@ -19,7 +19,7 @@ export const Corporate = ({ scrollToId }) => {
       id='corporate'
       className='relative z-10 w-full h-auto top-[52px] border-0 border-red'
     >
-      <div className='relative z-29 w-full border-0 border-pink z-0 top-0 flex flex-col items-center gap-24 pb-16 border-0 border'>
+      <div className='relative z-29 w-full border-0 border-pink z-0 top-0 flex flex-col items-center gap-24 pb-64 border-0 border'>
         {/* <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-white capitalize'>
             corporate
           </span> */}
@@ -65,7 +65,7 @@ export const Corporate = ({ scrollToId }) => {
           <span className='flex flex-col gap-16'>
                                   {/* --------------------    -------------------- */}
           <div className="flex flex-row gap-44">
-            <div className="flex items-center justify-center w-[800px] h-[200px] bg-contactBg2 rounded-21 rotate-45 ">
+            <div className="flex items-center justify-center w-[750px] h-[200px] bg-contactBg2 rounded-21 rotate-45 ">
             <span className=' w-24 h-24 card-svg -rotate-45'>
             {cyberSecurity}
           </span>
@@ -83,7 +83,7 @@ export const Corporate = ({ scrollToId }) => {
               We offer customized IT corporate training solutions that are tailored to meet the unique needs of your organization. Our primary goal is to empower your employees with the knowledge and skills they need to use and manage technology effectively to achieve your business objectives.
               </p>
             </div>
-            <div className=" flex items-center justify-center  w-[750px] h-[200px] bg-contactBg2 rounded-21 rotate-45 ">
+            <div className=" flex items-center justify-center w-[700px] h-[190px] bg-contactBg2 rounded-21 rotate-45 ">
             <span className=' w-24 h-24 card-svg -rotate-45'>
             {cyberSecurity}
           </span>

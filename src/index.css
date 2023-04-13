@@ -78,7 +78,7 @@ transform: rotate(-180deg);
 }
 
 .overlayL {
-  background: linear-gradient(90deg, rgba(33, 57, 84,1) 14.87%, rgba(33, 57, 84, 0.89) 23.18%, rgba(33, 57, 84, 0) 38.79%);
+  background: linear-gradient(90deg, rgba(33, 57, 84,1) 18.87%, rgba(33, 57, 84, 0.89) 26.18%, rgba(33, 57, 84, 0) 48.79%);
 /* transform: rotate(90deg); */
 }
 
