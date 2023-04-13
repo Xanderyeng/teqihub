@@ -33,14 +33,14 @@ export const Corporate = ({ scrollToId }) => {
           </span>
         </div> */}
         {/* -------- IMAGE ------- */}
-        <div className='relative z-0 w-full border-2 border-green '>
+        <div className='relative z-0 w-full border-0 border-green '>
           {/* <img src={corporate} alt='' className=' object-100%' /> */}
-          <div className='relative z-0 flex justify-center h-[85vh] bg-corporate bg-no-repeat bg-contain bg-center border-2 border'>
+          <div className='relative z-0 flex justify-center h-[85vh] bg-corporate bg-no-repeat bg-contain bg-center border-0 border'>
             <div className='absolute inset-0 z-0 h-[100%] overlayB flex flex-col items-start justify-center' />
             <div className='absolute inset-0 z-0 h-[100%] overlayL flex flex-col items-start justify-center' />
             <div className='absolute inset-0 z-0 h-[100%] overlayR flex flex-col items-end justify-center' />
 
-            <div className='relative z-500 h-full w-[85vw] flex flex-row items-center border-2 border-red'>
+            <div className='relative z-500 h-full w-[85vw] flex flex-row items-center border-0 border-red'>
               <div className=' flex flex-col justify-center border-0 border-pink'>
                 <span className='font-sans text-[2.8rem]'>
                   <p className=' font-medium'>Empower Your Team With </p>
