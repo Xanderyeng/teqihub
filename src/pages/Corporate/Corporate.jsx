@@ -32,19 +32,31 @@ export const Corporate = ({ scrollToId }) => {
           Empower Your Team with State-of-the-Art Data Techniques for Unmatched Success
           </span>
         </div> */}
-              {/* -------- IMAGE ------- */}
-        <div className='relative z-0 w-full border-0 border-green '>
-          
-
+        {/* -------- IMAGE ------- */}
+        <div className='relative z-0 w-full border-2 border-green '>
           {/* <img src={corporate} alt='' className=' object-100%' /> */}
-          <div className=" h-[85vh] bg-corporate bg-no-repeat bg-contain bg-center">
-            <div className='absolute inset-0 z-0 h-[100%] overlayB flex flex-col items-start justify-center border-0 border-green'></div>
-          <div className='absolute inset-0 z-0 h-[100%] overlayL flex flex-col items-start justify-center border-0 border-red'></div>
-          <div className='absolute inset-0 z-0 h-[100%] overlayR flex flex-col items-end justify-center border-0 border-red'></div>
+          <div className='relative z-0 flex justify-center h-[85vh] bg-corporate bg-no-repeat bg-contain bg-center border-2 border'>
+            <div className='absolute inset-0 z-0 h-[100%] overlayB flex flex-col items-start justify-center' />
+            <div className='absolute inset-0 z-0 h-[100%] overlayL flex flex-col items-start justify-center' />
+            <div className='absolute inset-0 z-0 h-[100%] overlayR flex flex-col items-end justify-center' />
+
+            <div className='relative z-500 h-full w-[85vw] flex flex-row items-center border-2 border-red'>
+              <div className=' flex flex-col justify-center border-0 border-pink'>
+                <span className='font-sans text-[2.8rem]'>
+                  <p className=' font-medium'>Empower Your Team With </p>
+                  <p className=' font-medium'>
+                    State-Of-The-Art Data Techniques
+                  </p>
+                  <p className=' font-medium'>For Unmatched Success </p>
+
+                  {/* <p className='capitalize font-bold text-mask text-[4.2rem]'>
+                tech journey
+              </p> */}
+                </span>
+              </div>
+            </div>
           </div>
         </div>
-
-       
 
         {/*  -------- TEXT CONTENT -------- */}
         <div className=' w-[70vw] flex flex-col justify-center py-8'>
