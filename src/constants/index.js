@@ -157,7 +157,7 @@ export const partnership = [
 
 export const privacyPolicy = [
   {
-    policy: `
+    heading: `
     We respect your right to privacy and hate spam as much as you do.
     The goal of this policy is to make explicit, the information we gather on our customers and users, how we will use it, and how we will not. This policy is, unfortunately, longer than we would like, but we must unambiguously address all the relevant cases. We will try and keep the language simple and direct as much as possible.
     Our Privacy Commitment:

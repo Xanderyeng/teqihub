@@ -62,39 +62,39 @@ export const Contact = () => {
   };
 
   return (
-    <section className='relative z-0 h-auto flex items-center flex-col gap-28 py-0 justify-center border-0 border-blue '>
+    <section className='relative z-0 h-auto flex items-center flex-col gap-28 pb-0 justify-center border-0 border-blue '>
       <div className='flex flex-col gap-4 relative justify-center items-center'>
         <span className='font-poppins font-semibold text-[1.8rem] flex flex-col text-white capitalize'>
-          contact us
+          {/* contact us */}
         </span>
         <p className='font-poppins text-[3.2rem] font-semibold capitalize'>
           {/* Accelerate your growth */}
-          get in touch with us
+          contact us
           {/* Trust the numbers: Our courses make a difference. */}
         </p>
       </div>
-      <div className=' relative z-2 grid grid-cols-10 gap-16 rounded-21 border-0 border-pink w-[75vw] py-10 px-20 bg-contact bg-100% bg-no-repeat bg-center '>
+      <div className=' relative z-2 grid grid-cols-10 gap-16 rounded-21 border-0 border-pink w-[75vw] py-0 px-20 bg-contact bg-100% bg-no-repeat bg-center '>
         <div className='absolute inset-0 z-0 h-[100%] w-[100%] rounded-21 contact-overlay'></div>
         {/* ---------- GRID COL 1 -------------- */}
-        <div className='relative z-1 flex flex-col col-span-6 border-0 border-red'>
-          {/* <span className='font-poppins font-normal text-[3.2rem]'>
-            <p>Drop us a message</p>
+        <div className='relative z-1 flex flex-col col-span-6 pb-16 border-0 border-red'>
+          <span className='font-poppins font-normal text-[3.2rem]'>
+            {/* <p>Contact Us</p> */}
           </span>
           <p className='font-secondary text-[1.4rem]  '>
-            We will get back to you soon as possible.
-          </p> */}
+            {/* We will get back to you soon as possible. */}
+          </p>
 
           {/* ----------------- FORM ----------------- */}
 
           <motion.div
             variants={slideIn("left", "tween", 0.2, 1)}
-            className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+            className='flex-[0.75] bg-black-100 px-12 rounded-2xl'
           >
             <h3 className={`font-poppins font-normal text-[3.2rem]`}>
-              Drop us a message
+            {/* Get in touch with us */}
             </h3>
             <p className={`font-secondary font-light text-[1.4rem] pt-6`}>
-              We will get back to you soon as possible.
+              {/* We will get back to you soon as possible. */}
             </p>
             <form
               ref={formRef}
@@ -152,7 +152,7 @@ export const Contact = () => {
                 type='submit'
                 className={`${styles.boxOutline} bg-tertiary px-14 py-4 text-[#d2d2d2] capitalize text-[1.6rem] outline outline-1 outline-white w-fit text-white font-medium rounded-md hover:bg-white hover:text-card-bg-2`}
               >
-                {loading ? "Sending..." : "Send"}
+                {loading ? "Sending..." : "Connect"}
               </button>
             </form>
           </motion.div>

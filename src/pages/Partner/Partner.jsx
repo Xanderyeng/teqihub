@@ -1,7 +1,7 @@
 import React from "react";
 import { Contact } from "../../components";
 import { partnership } from "../../constants";
-import partner from "../../assets/partner.avif";
+import partner from "../../assets/partner_org.avif";
 
 export const Partner = ({ scrollToId }) => {
   React.useEffect(() => {

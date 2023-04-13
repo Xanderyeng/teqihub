@@ -64,7 +64,7 @@ module.exports = {
         backdrop: "url('/src/assets/backdrop.avif')",
         stats: "url('/src/assets/Stats.webp')",
         contact: "url(/src/assets/contact.webp)",
-        corporate: "url(/src/assets/corporate.png)",
+        corporate: "url('/src/assets/corporate.avif')",
         partner: "url('/src/assets/partner.avif')",
       },
       backgroundSize: {
