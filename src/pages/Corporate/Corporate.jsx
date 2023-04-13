@@ -64,13 +64,13 @@ export const Corporate = ({ scrollToId }) => {
               {/* <div className='w-[600px] h-[180px] bg-peach rounded-21'></div> */}
           <span className='flex flex-col gap-16'>
                                   {/* --------------------    -------------------- */}
-          <div className="flex flex-row gap-44">
-            <div className="flex items-center justify-center w-[750px] h-[200px] bg-corp2 bg-no-repeat rounded-21 rotate- ">
+          <div className="flex flex-row gap-32 border-0 border">
+            <div className="flex items-center justify-center w-[1800px] h-[280px] bg-corp2 bg-no-repeat bg-contain rounded-21 flip-horizontally border-0 borde overl ">
             <span className=' w-24 h-24 card-svg -rotate-45'>
             {/* {cyberSecurity} */}
           </span>
             </div>
-            <div>
+            <div className="flex flex-row justify-center items-center">
               <p className='font-white w-[90%] font-extralight font-inter text-[1.8rem]' >
               In today's corporate world, technology is developing at an unprecedented pace, and staying ahead of the curve is critical for business success. At TEQihub, we understand the importance of having a highly skilled workforce that can navigate the ever-changing technological landscape with ease.
               </p>
@@ -83,7 +83,7 @@ export const Corporate = ({ scrollToId }) => {
               We offer customized IT corporate training solutions that are tailored to meet the unique needs of your organization. Our primary goal is to empower your employees with the knowledge and skills they need to use and manage technology effectively to achieve your business objectives.
               </p>
             </div>
-            <div className=" flex items-center justify-center w-[700px] h-[190px] bg-corp1 rounded-21 rotate- bg-contain ">
+            <div className=" flex items-center justify-center w-[500px] h-[] bg-corp1 rounded-21 rotate- bg-100% ">
             <span className=' w-24 h-24 card-svg -rotate-45'>
             {/* {cyberSecurity} */}
           </span>

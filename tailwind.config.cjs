@@ -69,7 +69,7 @@ module.exports = {
         corporate: "url('/src/assets/corporate.avif')",
         partner: "url('/src/assets/partner.avif')",
         corp1: "url('/src/assets/Corporate world II.jpg')",
-        corp2: "url('/src/assets/Corporate world.jpg')",
+        corp2: "url('/src/assets/Corporate world.webp')",
       },
       backgroundSize: {
         auto: "auto",
