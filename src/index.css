@@ -40,7 +40,8 @@
   );
   /* SAN JUAN - COLOR NAME */
   /* https://imagecolorpicker.com/color-code/2a496a */
-  --mainBg: #213954;
+  --mainBg: #152535;
+  /* --mainBg: #213954; */
   --menuBG: #080f15;
   --navBg: rgba(0, 2, 10, 0.825);
 }
@@ -49,6 +50,7 @@ html {
   font-size: 62.5%;
   /* overflow: auto; */
   background: var(--mainBg);
+  /* color: #162637; */
 }
 
 body {

@@ -8,7 +8,9 @@ module.exports = {
         primary: "hsla(0, 0%, 100%, 1)",
         secondary: "hsla(0, 3%, 35%, 0.17)",
         "card-bg": "rgba(34, 58, 85, 1)",
-        "card-bg-2": "hsla(210, 43%, 15%, 1)",
+        "main-bg": "rgba(34, 58, 85, 1)",
+        "card-bg-2": "#162637",
+        "main-bg-2": "#152535",
 
         // quarternary: "rgba(137, 137, 137, 1)",
         hover: "hsla(216, 98%, 80%, 1)",
@@ -66,6 +68,8 @@ module.exports = {
         contact: "url(/src/assets/contact.webp)",
         corporate: "url('/src/assets/corporate.avif')",
         partner: "url('/src/assets/partner.avif')",
+        corp1: "url('/src/assets/Corporate world II.jpg')",
+        corp2: "url('/src/assets/Corporate world.jpg')",
       },
       backgroundSize: {
         auto: "auto",
