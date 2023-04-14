@@ -9,7 +9,7 @@ export const Hero = () => {
       {/* border-2 border-pink */}
       <div
         //  max-h-475
-        className={`absolute inset-0 top-[51px] max-h-[100vh] bg-backdrop bg-no-repeat bg-center bg-100% mx-auto flex flex-row justify-center border-t-2 border-white gap-5 border-0 border-red `}
+        className={`absolute inset-0 top-[51px] max-h-[100vh] bg-hero2 bg-no-repeat bg-center bg-100% mx-auto flex flex-row justify-center border-t-2 border-white gap-5 border-0 border-red `}
         //
       >
         {/* h-[455px] */}

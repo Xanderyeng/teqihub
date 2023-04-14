@@ -64,6 +64,7 @@ module.exports = {
       },
       backgroundImage: {
         backdrop: "url('/src/assets/backdrop.avif')",
+        hero2: "url('/src/assets/Landing page pic.jpg')",
         stats: "url('/src/assets/Stats.webp')",
         contact: "url(/src/assets/contact.webp)",
         corporate: "url('/src/assets/corporate.avif')",

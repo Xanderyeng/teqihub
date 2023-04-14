@@ -76,7 +76,7 @@ body {
 }
 
 .overlay {
-  background: linear-gradient(90deg, rgb(26, 33, 47) 6.64%, rgba(26, 27, 31, 0.89) 22.66%, rgba(26, 27, 31, 0) 53.94%);
+  background: linear-gradient(90deg, rgb(26, 33, 47) 1.64%, rgba(26, 27, 31, 0.89) 32.66%, rgba(26, 27, 31, 0) 42.94%);
 }
 .overlay2 {
   background: linear-gradient(0.82deg, rgba(0, 0, 0, 0.836) 0.41%, rgba(31, 32, 36, 0) 39.01%);
