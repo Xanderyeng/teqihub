@@ -41,9 +41,17 @@
   /* SAN JUAN - COLOR NAME */
   /* https://imagecolorpicker.com/color-code/2a496a */
   --mainBg: #152535;
-  /* --mainBg: #213954; */
+  --homeBg: #213954;
   --menuBG: #080f15;
   --navBg: rgba(0, 2, 10, 0.825);
+}
+
+.home-bg{
+  background: var(--homeBg);
+}
+
+.other-bg{
+  background: var(--mainBg);
 }
 
 html {

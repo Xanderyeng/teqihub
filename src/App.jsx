@@ -12,11 +12,14 @@ const ScrollToTop = () => {
   return null;
 };
 
+
 const App = () => {
-  
+  const location = useLocation();
+
   return (
     <>
-      <div className='relative z-0'>
+      {/* <ScrollToTop /> */}
+      <div className={location.pathname === '/' ? 'home-bg' : 'other-bg'}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
