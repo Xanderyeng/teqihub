@@ -81,7 +81,7 @@ export const Corporate = ({ scrollToId }) => {
           <div className="flex flex-row gap-4 items-center rounded-21 pt-32 ">
             <div>
               <p className='font-white w-[90%] pl-4 font-extralight font-inter text-[1.8rem]' >
-              We offer customized IT corporate training solutions that are tailored to meet the unique needs of your organization.  <br/><br/> <p> Our primary goal is to empower your employees with the knowledge and skills they need to use and manage technology effectively to achieve your business objectives.</p>
+              We offer customized IT corporate training solutions that are tailored to meet the unique needs of your organization. <br/><br/> Our primary goal is to empower your employees with the knowledge and skills they need to use and manage technology effectively to achieve your business objectives.
               </p>
             </div>
             <div className=" flex items-center justify-center w-[500x] h-[] bg-corp1 rounded-21 rotate- bg-100% ">
