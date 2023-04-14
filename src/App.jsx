@@ -19,7 +19,7 @@ const App = () => {
   return (
     <>
       {/* <ScrollToTop /> */}
-      <div className={location.pathname === '/' ? 'home-bg' : 'other-bg'}>
+      <div className={location.pathname === '/' || location.pathname === '/courses' ? 'home-bg' : 'other-bg'}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
