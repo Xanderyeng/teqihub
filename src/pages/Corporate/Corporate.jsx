@@ -41,7 +41,7 @@ export const Corporate = ({ scrollToId }) => {
           {/* <img src={corporate} alt='' className=' object-100%' /> */}
           <div className='relative z-0 flex justify-center h-[85vh] bg-corporate bg-no-repeat bg-contain bg-center border-0 border'>
             <div className='absolute inset-0 z-0 h-[100%] overlayB flex flex-col items-start justify-center' />
-            <div className='absolute inset-0 z-0 h-[100%] overlayL flex flex-col items-start justify-center' />
+            <div className='absolute inset-0 z-0 h-[100%] overlayL flex flex-col items-start justify-center  border-0 border' />
             <div className='absolute inset-0 z-0 h-[100%] overlayR flex flex-col items-end justify-center' />
 
             <div className='relative z-500 h-full w-[85vw] flex flex-row border-0 border-red'>

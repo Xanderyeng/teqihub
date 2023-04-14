@@ -96,13 +96,13 @@ transform: rotate(-180deg);
 }
 
 .overlayL {
-  background: linear-gradient(90deg, rgba(21, 37, 53, 1)
-  18.87%, rgba(21, 37,53, 0.89) 26.18%, rgba(21, 37, 53, 0) 48.79%);
+  background: linear-gradient(90deg, rgba(21, 37, 53, 1.98)
+  16.87%, rgba(21, 37,53, 0.69) 32.18%, rgba(21, 37, 53, 0) 48.79%);
 /* transform: rotate(90deg); */
 }
 
 .overlayR {
-  background: linear-gradient(90deg, rgba(21, 37, 53, 0) 65.88%, rgba(21, 37, 53, 0.89) 78.72%, rgba(21, 37, 53, 1) 85.18%);
+  background: linear-gradient(90deg, rgba(21, 37, 53, 0.005) 45.88%, rgba(21, 37, 53, 0.99) 82.72%, rgba(21, 37, 53, 1) 90.18%);
 /* transform: rotate(90deg); */
 }
 
