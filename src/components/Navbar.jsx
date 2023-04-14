@@ -16,7 +16,7 @@ export const Navbar = () => {
   const [active, setActive] = useState("");
   return (
     <nav
-      className={`w-full flex items-center py-2 fixed top-0 z-20 black border-b-2 border-white nav-bg`}
+      className={`w-full flex items-center py-2 fixed top-0 z-20 blac border-b-2 border-white nav-bg`}
     >
       <div className='w-full flex justify-between items-center max-w-[85vw] mx-auto border-0 border '>
         <div className='flex flex-row flex-nowrap justify-right items-center gap-32 '>

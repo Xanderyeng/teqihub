@@ -74,14 +74,22 @@ body {
   background: linear-gradient(0.82deg, rgba(0, 0, 0, 0.836) 0.41%, rgba(31, 32, 36, 0) 39.01%);
 }
 
+.overlayP {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.306) 40.41%, rgba(31, 32, 36, 0) 95.01%);
+}
+
+.overlayPB {
+  background: linear-gradient(180deg, rgba(21, 37, 53, 0.136) 95.41%, rgba(21, 37, 53, 0.95) 99.01%);
+}
+
 .overlayB {
-  background: linear-gradient(0.52deg, rgba(21, 37, 53, 0) 78.41%, rgba(21, 37, 53) 85.75%, rgba(21, 37, 53,1) 85.18%);
+  background: linear-gradient(0.52deg, rgba(21, 37, 53, 0) 78.41%, rgba(21, 37, 53, 1) 85.75%, rgba(21, 37, 53,1) 85.18%);
 transform: rotate(-180deg);
 }
 
 .overlayL {
   background: linear-gradient(90deg, rgba(21, 37, 53, 1)
-  18.87%, rgba(21, 37,53, 0.89) 26.18%, rgba(33, 57, 84, 0) 48.79%);
+  18.87%, rgba(21, 37,53, 0.89) 26.18%, rgba(21, 37, 53, 0) 48.79%);
 /* transform: rotate(90deg); */
 }
 
@@ -109,9 +117,12 @@ background-clip: text;
 }
 
 .nav-bg {
-  background: rgba(0, 2, 10, 0.825);
+  background: rgba(0, 2, 10, 0.725);
 }
 
+.nav-grad{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.57) 53.75%, rgba(0, 0, 0, 0) 95.1%);
+}
 .card-gradient {
   -webkit-transition: background-image 2s ease-out;
   -moz-transition: background-image 2s ease-out;
