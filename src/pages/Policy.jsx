@@ -13,44 +13,80 @@ export const Policy = ({ scrollToId }) => {
     <section className='relative z-10 w-full h-auto top-[51px] border-0 border-red'>
     <div className='relative z-0 top-0 flex flex-col items-center gap-24 py-16 border-0 border'>
     <div className='w-[70vw] flex flex-col justify-center py-8'>
-    <p className='font-poppins text-[3.2rem] text-center font-semibold capitalize'>
+    <p className='font-poppins text-[4.8rem] text-left font-medium uppercase'>
       Privacy Policy
     </p>
 
-We respect your right to privacy and hate spam as much as you do.
-The goal of this policy is to make explicit, the information we gather on our customers and users, how we will use it, and how we will not. This policy is, unfortunately, longer than we would like, but we must unambiguously address all the relevant cases. We will try and keep the language simple and direct as much as possible.
+<span className="font-poppins text-[1.6rem] font-normal">
+<p className='mb-4'>We respect your right to privacy and hate spam as much as you do.</p>
+<p className='mb-4'>
+The goal of this policy is to make explicit, the information we gather on our customers and users, how we will use it, and how we will not. This policy is, unfortunately, longer than we would like, but we must unambiguously address all the relevant cases. We will try and keep the language simple and direct as much as possible.</p>
+<p className='mb-4'>
 Our Privacy Commitment:
-Teqihub has never sold your information to someone else for advertising or made money by showing you other people’s ads, and we never will. This has been our approach since inception, and we remain committed to it. This policy tells you the purpose and who we are, what information we do collect from you, what we do with it, who can access it, and what you can do about it.
+</p>
+<p className='mb-4'>
+Teqihub has never sold your information to someone else for advertising or made money by showing you other people’s ads, and we never will. This has been our approach since inception, and we remain committed to it. This policy tells you the purpose and who we are, what information we do collect from you, what we do with it, who can access it, and what you can do about it.</p>
 
  
-<p className='font-poppins text-[2.4rem] text-center font-semibold capitalize'>
+<p className='font-poppins mb-4 text-[2.4rem] text-left font-semibold uppercase'>
     PURPOSE AND WHO WE ARE:
     </p>
+<p className='mb-4'>
 The purpose of this Privacy Policy is to describe how Teqihub, Inc. and Teqihub Edutech Private Limited (“Teqihub,” “us,” “we,” or “our”) collects, uses and shares information about you through our online interfaces (e.g., websites and mobile applications) owned and controlled by us, including www.Teqihub.com (collectively referred to herein as the “Site”). Please read this notice carefully to understand what we do. If you do not understand any aspects of our Privacy Policy, please feel free to contact us at compliance@Teqihub.com
+</p>
+<p className='mb-4'>
 Teqihub is a techhub firm with a principal place of business location Maryland USA. Teqihub is both a data controller and a data processor of all Personally Identifiable Information (defined below) collected via the site and of certain Personally Identifiable Information collected from third parties.
+</p>
+<p className='mb-4'>
 This Privacy Policy covers information we collect from you through our Site. Some of our Site’s functionality can be used without any Personally Identifiable Information, though, for features or services related to the Courses, Personally Identifiable Information is required. In order to access certain features and benefits on our Site, you may need to submit, or we may collect.
+</p>
+<p className='mb-4'>
 “Personally Identifiable Information” (i.e., information that can be used to identify you). Personally, Identifiable Information can include information such as your name and email address, among other things. If you reside or are located in the EEA, it can also include your IP address or device identifier. You are responsible for ensuring the accuracy of the Personally Identifiable Information you submit to Teqihub. Inaccurate information may affect your ability to use the Site, the information you receive when using the Site, and our ability to contact you. For example, your email address should be kept current because that is one of the primary manners in which we communicate with you.
+</p>
  
 
-<p className='font-poppins text-[2.4rem] text-center font-semibold capitalize'>
-WHAT INFORMATION DO WE COLLECT?
-    </p> 
+<p className='font-poppins mb-4 text-[2.4rem] text-center font-semibold capitalize'>WHAT INFORMATION DO WE COLLECT?</p> 
+<p className='mb-4'>
 We collect information about you only if we need the information for some legitimate purpose. Teqihub will have information about you only if
-(a) You have provided the information yourself,
+(a)&nbsp;You have provided the information yourself,
 (b) Teqihub has automatically collected the information, or
 (c) Teqihub has obtained the information from a third party.
+</p>
+<p className='mb-4'>
 Information that you provide us
+</p>
+<p className='mb-4'>
+
 i. Account signup: When you sign up for an account to access one or more of our services, we ask for information like your name, contact number, email address, company name and country to complete the account signup process. You’ll also be required to choose a unique username and a password for accessing the created account.
+</p>
+<p className='mb-4'>
 ii. Event registrations and other form submissions: We record information that you submit when you (i) register for any event, like webinars (ii) submit a form in order to download any brochure, whitepaper, or other materials, (iv) participate in contests or respond to surveys, or (v) submit a form to request customer support or to contact Teqihub for any other purpose.
+</p>
+<p className='mb-4'>
 iii. Payment processing: When you buy something from us, we ask you to provide your name, contact information, and credit card information or other payment account information. When you submit your card information, we store the name and address of the cardholder, the expiry date and the last four digits of the credit card number on secured servers of our Payment Gateway Service Providers. Your credit card information is never stored in our system as it is processed by our payment gateway partners which use encryption technologies while processing your information.
+</p>
+<p className='mb-4'>
 iv. Testimonials: When you authorize us to post testimonials about our products and services on websites, we may include your name and other personal information in the testimonial. You will be given an opportunity to review and approve the testimonial before we post it. If you wish to update or delete your testimonial, you can contact us at compliance@Teqihub.com
+</p>
+<p className='mb-4'>
 v. Interactions with Teqihub: We may record, analyze and use your interactions with us, including email, telephone, and chat conversations with our sales and customer support professionals, for improving our interactions with you and other customers.
+</p>
+<p className='mb-4'>
 Information that we collect automatically
+</p>
+<p className='mb-4'>
 i. Information from browsers, devices and servers: When you visit our websites, we collect information that web browsers, mobile devices and servers make available, such as the internet protocol address, browser type, language preference, time zone, referring URL, date and time of access, operating system, mobile device manufacturer or mobile network information. We include these in our log files to understand more about visitors to our websites.
+</p>
+<p className='mb-4'>
 ii. Information from first-party cookies and tracking technologies: We use temporary and permanent cookies to identify users of our services and to enhance user experience. We also use cookies, beacons, tags, scripts, and other similar technologies to identify visitors, track website navigation, gather demographic information about visitors and users, understand campaign effectiveness and for targeted visitor and user engagement by tracking your activities on our websites. You can learn more about the cookies used on our websites on our Cookie Policy.
+</p>
+<p className='mb-4'>
 iii. Information from application logs and analytics: We collect information about your use of our products, services, and applications from application logs and analytics tools, and use it to understand how your use and needs can improve our products. This information includes clicks, scrolls, features accessed, access time and frequency, errors generated, performance data, storage utilized, user settings and configurations, and devices used to access and their locations.
 Information that we collect from third parties
+</p>
+<p className='mb-4'>
 i. Affiliates: If someone has registered for any of our products or services through any of our affiliates, the affiliate may have provided us with your name, email address, and other personal information. You may contact us at compliance@Teqihub.com to request that we remove your information from our database. The information provided is used to create access to our platform.
+</p>
 ii. Information from our service providers: Teqihub may receive information about you from review sites if you comment on any review of our products and services, and from other third-party service providers that we engage for marketing our products and services.
 iii. Information from social media sites and other publicly available sources: When you interact or engage with us on social media sites such as Facebook, LinkedIn, Twitter, Google+ and Instagram through posts, comments, questions and other interactions, we may collect such publicly available information to allow us to connect with you, improve our products, or better understand user reactions and issues.
  
@@ -179,6 +215,7 @@ We make every effort, including periodic reviews, to ensure that the personal in
 We may modify the Privacy Policy at any time, you are requested to check 
 We may modify the Privacy Policy at any time, you are requested to check https://www.Teqihub.comm/privacy-policy periodically to understand how your personal information is used.
 You can always contact us to: ask questions about our privacy practices, request a GDPR-compliant Data Processing Addendum, alert us if you believe we have collected personal data from a minor, or ask to have your personal information removed from our blogs or forums.
+</span>
 
 </div>
     </div>

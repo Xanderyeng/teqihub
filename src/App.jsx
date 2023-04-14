@@ -27,7 +27,7 @@ const App = () => {
           <Route path="/corporate" element={<Corporate scrollToId="corporate" />} />
           <Route path="/partner" element={<Partner scrollToId="partner" />} />
           <Route path="/courses" element={<Home scrollToId="courses"/>} />
-          <Route path='/privacy-policyy' element={<Policy />} />
+          <Route path='/privacy-policy' element={<Policy />} />
           <Route path="/terms-of-usee" element={<TermsOfUse />} />
         </Routes>
         <Footer />

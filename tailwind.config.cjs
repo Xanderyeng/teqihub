@@ -67,7 +67,7 @@ module.exports = {
         stats: "url('/src/assets/Stats.webp')",
         contact: "url(/src/assets/contact.webp)",
         corporate: "url('/src/assets/corporate.avif')",
-        partner: "url('/src/assets/partner_blue.jpg')",
+        partner: "url('/src/assets/partner_blue.avif')",
         about: "url('/src/assets/Image 1.avif')",
         corp1: "url('/src/assets/Corporate world II.jpg')",
         corp2: "url('/src/assets/Corporate world.webp')",

@@ -1,8 +1,8 @@
 import React from "react";
 import corporate from "../../assets/corporate.avif";
 import corp1 from "../../assets/Corporate world.webp"
-import corp2 from '../../assets/Corporate world II.jpg'
-import corp3 from "../../assets/ApplicationCodeLibraries.jpg"
+import corp2 from '../../assets/Corporate_world_II.avif'
+import corp3 from "../../assets/ApplicationCodeLibraries.avif"
 import { Contact } from "../../components";
 import { corp } from "../../constants";
 import { cyberSecurity } from "../../assets";
@@ -40,9 +40,9 @@ export const Corporate = ({ scrollToId }) => {
         <div className='relative z-0 w-full border-0 border-green '>
           {/* <img src={corporate} alt='' className=' object-100%' /> */}
           <div className='relative z-0 flex justify-center h-[85vh] bg-corporate bg-no-repeat bg-contain bg-center border-0 border'>
-            <div className='absolute inset-0 z-0 h-[100%] overlayB flex flex-col items-start justify-center' />
             <div className='absolute inset-0 z-0 h-[100%] overlayL flex flex-col items-start justify-center  border-0 border' />
             <div className='absolute inset-0 z-0 h-[100%] overlayR flex flex-col items-end justify-center' />
+            <div className='absolute inset-0 z-0 h-[100%] overlayB2 flex flex-col items-start justify-center' />
 
             <div className='relative z-500 h-full w-[85vw] flex flex-row border-0 border-red'>
               <div className='relative z-0 pt-[10%] flex flex-col border-0 border-pink'>

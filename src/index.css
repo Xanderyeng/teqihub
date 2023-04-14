@@ -40,8 +40,8 @@
   );
   /* SAN JUAN - COLOR NAME */
   /* https://imagecolorpicker.com/color-code/2a496a */
-  --mainBg: #152535;
-  --homeBg: #213954;
+  --mainBg: #152535;       /* THIS THE COLOR CODE CHOSEN FOR OTHER PAGES */
+  --homeBg: #213954;       /* THIS IS THE COLOR CODE CHOSEN FOR THE HOME PAGE - LANDING PAGE */
   --menuBG: #080f15;
   --navBg: rgba(0, 2, 10, 0.825);
 }
@@ -93,6 +93,11 @@ body {
 .overlayB {
   background: linear-gradient(0.52deg, rgba(21, 37, 53, 0) 78.41%, rgba(21, 37, 53, 1) 85.75%, rgba(21, 37, 53,1) 85.18%);
 transform: rotate(-180deg);
+}
+
+.overlayB2 {
+  background: linear-gradient(180deg, rgba(26, 27, 31, 0) 62.41%, rgba(26, 27, 31, 0.59) 80.75%, rgba(9, 16, 24, 1) 98.18%);
+  /* transform: rotate(-180deg); */
 }
 
 .overlayL {
