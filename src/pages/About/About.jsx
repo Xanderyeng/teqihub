@@ -1,6 +1,7 @@
 import React from "react";
 import { Contact } from "../../components";
 import { aboutData } from "../../constants";
+import about from "../../assets/Image 1.avif"
 
 export const About = () => {
   return (
@@ -19,7 +20,8 @@ export const About = () => {
         {/* ----------------- HERO SECTION ---------------- */}
         <div className='relative z-0 w-full border-0 border-green '>
           {/* <img src={corporate} alt='' className=' object-100%' /> */}
-          <div className='relative z-0 flex justify-center h-[85vh] bg-about bg-no-repeat bg-100% bg-center border-0 border'>
+          <div className='relative z-0 flex justify-center h-[85vh] bg-aboutt bg-no-repeat bg-contain bg-center border-0 border'>
+          <img src={about} alt='' className='center object-100%' />
             <div className='absolute inset-0 z-0 h-[100%] overla flex flex-col items-start justify-center' />
             <div className='absolute inset-0 z-0 h-[100%] overla flex flex-col items-start justify-center' />
             <div className='absolute inset-0 z-0 h-[100%] overlayPB flex flex-col items-end justify-center' />

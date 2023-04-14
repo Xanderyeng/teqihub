@@ -32,17 +32,17 @@ export const Partner = ({ scrollToId }) => {
                           {/* ----------------- HERO SECTION ---------------- */}
           <div className='relative z-0 w-full border-0 border-green '>
           {/* <img src={corporate} alt='' className=' object-100%' /> */}
-          <div className='relative z-0 flex justify-center h-[85vh] bg-partner bg-no-repeat bg-100% bg-center border-0 border'>
+          <div className='relative z-0 flex justify-center h-[65vh] bg-partner bg-no-repeat bg-100% bg-center border-0 border'>
             <div className='absolute inset-0 z-0 h-[100%] overla flex flex-col items-start justify-center' />
-            <div className='absolute inset-0 z-0 h-[100%] overlayP flex flex-col items-start justify-center' />
-            <div className='absolute inset-0 z-0 h-[100%] overlayPB flex flex-col items-end justify-center' />
+            <div className='absolute inset-0 z-0 h-[100%] overla flex flex-col items-start justify-center' />
+            <div className='absolute inset-0 z-0 h-[100%] overla flex flex-col items-end justify-center' />
 
-            <div className='relative z-500 h-full w-[85vw] flex flex-row border-0 border-red'>
+            <div className='relative z-500 h-full w-[85vw] flex flex-col justify border-0 border-red'>
               <div className='relative z-0 pt-[10%] flex flex-col border-0 border-pink'>
-                <span className='font-sans text-[2.8rem]'>
-                  <p className=' font-medium'>Powering the Future with </p>
+                <span className='flex flex-col justify-center items-center font-sans text-[2.8rem]'>
+                  <p className=' pt-[20%] font-medium'>Powering the Future with  Our Cutting-Edge Premier Gateway </p>
                   <p className=' font-medium'>
-                  Our Cutting-Edge Premier Gateway
+                 
                   </p>
                   {/* <p className=' font-medium'>For Unmatched Success </p> */}
 
