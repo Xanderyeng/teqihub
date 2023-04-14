@@ -12,7 +12,7 @@ export const StatsCard = ({ title, number, icon, index }) => {
       <div className='flex flex-col justify-center [nth-child(even)]:text-center mx-6 border-blue border-0'>
         <span className='font-poppins font-medium text-[32px] text-inherit capitalize'>
           {counterOn && (
-            <CountUp start={number} end={number} duration={1.5} delay={index/1.75} />
+            <CountUp start={0} end={number} duration={1.5} delay={index/1.75} />
           )}
           &nbsp;
           {icon}
