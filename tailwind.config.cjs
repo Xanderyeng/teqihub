@@ -11,6 +11,9 @@ module.exports = {
         "main-bg": "rgba(34, 58, 85, 1)",
         "card-bg-2": "#162637",
         "main-bg-2": "#152535",
+        "corp-a": "rgba(34, 69, 118, 1)",
+        "corp-b": "rgba(165, 211, 244, 1)",
+        "corp-c": "rgba(44, 59, 73, 1)",
 
         // quarternary: "rgba(137, 137, 137, 1)",
         hover: "hsla(216, 98%, 80%, 1)",
@@ -54,14 +57,17 @@ module.exports = {
         nunito: ["Nunito", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        ubuntu: ["Ubuntu", "sans-serif"],
       },
       boxShadow: {
         card: "1px 1px 6px rgba(0, 0, 0, 0.15)",
-        
       },
       screens: {
         xs: "450px",
       },
+      scale: {
+        '-100': '-1',
+    },
       backgroundImage: {
         backdrop: "url('/src/assets/backdrop.avif')",
         hero2: "url('/src/assets/Landing page pic.jpg')",

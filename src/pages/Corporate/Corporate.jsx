@@ -65,18 +65,22 @@ export const Corporate = ({ scrollToId }) => {
                          {/*  -------- TEXT CONTENT -------- */}
         <div className=' w-[70vw] flex flex-col justify-center py-0'>
               {/* <div className='w-[600px] h-[180px] bg-peach rounded-21'></div> */}
-          <span className='flex flex-col gap-16'>
+          <span className='relative flex flex-col gap-16'>
                                   {/* --------------------  BOX 1  -------------------- */}
-          <div className="flex flex-row gap-16  border-0 border">
-            <div className="flex items-center justify-center bg-cor bg-no-repeat bg-contain rounded-21 flip-horizontally border-0 borde overl ">
-           <img src={corp1} className="w-[105em] rounded-21" />
-            </div>
-            <div className="flex flex-row justify-center items-center outline outline-2 outline-card-bg-2 p-4 border-0 border-red">
-              <p className='font-white w-[9] font-extralight font-inter text-[1.8rem] bg- border-0 border-green' >
-              In today's corporate world, technology is developing at an unprecedented pace, and staying ahead of the curve is critical for business success. <br/><br/> At TEQihub, we understand the importance of having a highly skilled workforce that can navigate the ever-changing technological landscape with ease.
+          <div className="relative flex flex-row gap-24 pt-32">
+           
+            <div className="relative flex flex-row justify-center pl-16 pr-32 py-32 -mr-96 items-center bg-corp-a border-0 border-red">
+              <p className='relative z-20 top-0 font-white -mr-16 font-extralight font-ubuntu text-[1.8rem]' >
+              Investing in your employees' technology skills can yield numerous benefits for your organization, such as increased productivity, improved job performance, reduced employee turnover, and enhanced competitiveness in the market.<br/><br/> By partnering with TEQihub, you can ensure that your workforce is equipped to tackle the challenges of the digital age and position your organization for sustained success.
               </p>
             </div>
+             <div className="relative z-0 flex items-center justify-center h-auto transform -scale-x-100 border-0 border-blue">
+             {/* <div className=" relative z-10 bg-pink"></div> */}
+              <img src={corp3} className="relative z-5 w-[180em] h-auto " />
+              <div className='absolute inset-0 z-0 h-auto overlayCorpA flex items-start justify-center border-0 border-green' />
+            </div>
           </div>
+         
                                   {/* --------------------  BOX 2  -------------------- */}
           <div className="flex flex-row gap-4 items-center rounded-21 pt-32 ">
             <div>
@@ -89,16 +93,17 @@ export const Corporate = ({ scrollToId }) => {
             </div>
           </div>
                                  {/* --------------------  BOX 3  -------------------- */}
-          <div className="flex flex-row gap-24 pt-32">
-            <div className=" flex items-center justify-center h-auto rounded-21 ">
-            <img src={corp3} className="w-[180em] h-auto rounded-21" />
+                                 <div className="flex flex-row gap-16  border-0 border">
+            <div className="flex items-center justify-center bg-cor bg-no-repeat bg-contain rounded-21 flip-horizontally border-0 borde overl ">
+           <img src={corp1} className="w-[105em] rounded-21" />
             </div>
-            <div className="flex flex-row justify-center items-center">
-              <p className='font-white w-[8] font-extralight font-inter text-[1.8rem]' >
-              Investing in your employees' technology skills can yield numerous benefits for your organization, such as increased productivity, improved job performance, reduced employee turnover, and enhanced competitiveness in the market.<br/><br/> By partnering with TEQihub, you can ensure that your workforce is equipped to tackle the challenges of the digital age and position your organization for sustained success.
+            <div className="flex flex-row justify-center items-center outline outline-2 outline-card-bg-2 p-4 border-0 border-red">
+              <p className='font-white w-[9] font-extralight font-inter text-[1.8rem] bg- border-0 border-green' >
+              In today's corporate world, technology is developing at an unprecedented pace, and staying ahead of the curve is critical for business success. <br/><br/> At TEQihub, we understand the importance of having a highly skilled workforce that can navigate the ever-changing technological landscape with ease.
               </p>
             </div>
           </div>
+       
             {/* {corp.map((data, index) => (
               <div >
               <div key={index} index={index} className='flex flex-row gap-16'>
