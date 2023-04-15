@@ -74,7 +74,7 @@ export const Corporate = ({ scrollToId }) => {
               Investing in your employees' technology skills can yield numerous benefits for your organization, such as increased productivity, improved job performance, reduced employee turnover, and enhanced competitiveness in the market.<br/><br/> By partnering with TEQihub, you can ensure that your workforce is equipped to tackle the challenges of the digital age and position your organization for sustained success.
               </p>
             </div>
-             <div className="relative z-0 flex items-center justify-center h-auto transform -scale-x-100 border-0 border-blue">
+             <div className="relative z-0 flex items-center justify-center h-auto transform -scale-x-100 border-0 border-red">
              {/* <div className=" relative z-10 bg-pink"></div> */}
               <img src={corp3} className="relative z-5 w-[180em] h-auto " />
               <div className='absolute inset-0 z-0 h-auto overlayCorpA flex items-start justify-center border-0 border-green' />
@@ -82,14 +82,16 @@ export const Corporate = ({ scrollToId }) => {
           </div>
          
                                   {/* --------------------  BOX 2  -------------------- */}
-          <div className="flex flex-row gap-4 items-center rounded-21 pt-32 ">
-            <div>
-              <p className='font-white w-[90%] pl-4 font-extralight font-inter text-[1.8rem]' >
+          <div className="relative flex flex-row gap-4 items-center max-w-[75vw] mt-72 pt-32 border-0 border-green ">
+            <div className=" relative -top-80 flex flex-col justify-center h-[48rem] rounded-[60% / 58%] pl-32  py-28 -mr-72 bg-corp-b border-0 border-green" style={{ borderRadius: "60% / 58%" }}>
+            {/* <div className=""></div> */}
+              <p className='relative z-20 -top-0 text-main-bg-2 font-normal w-[80%] text-center font-ubuntu text-[1.8rem]' >
               We offer customized IT corporate training solutions that are tailored to meet the unique needs of your organization. <br/><br/> Our primary goal is to empower your employees with the knowledge and skills they need to use and manage technology effectively to achieve your business objectives.
               </p>
             </div>
-            <div className=" flex items-center justify-center w-[500x] h-[] bg-corp1 rounded-21 rotate- bg-100% ">
-            <img src={corp2} className="w-[100em] h-auto rounded-21" />
+            <div className="relative z-0 flex items-center justify-center bg-corp1 rounded-21 bg-100% border-0 border-red ">
+            <img src={corp2} className="relative z-0 w-[100em] h-auto rounded-21" />
+            <div className='absolute z-0 inset-0 z-0 h-auto overlayCorpB flex items-start justify-center rounded-21 border-0 border-green' />
             </div>
           </div>
                                  {/* --------------------  BOX 3  -------------------- */}

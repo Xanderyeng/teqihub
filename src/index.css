@@ -87,6 +87,10 @@ body {
    */
 }
 
+.overlayCorpB {
+  background: radial-gradient(50% 50.25% at 0% 0%, #A5D3F4 32.67%, rgba(165, 211, 244, 0) 82.99%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
 .overlay {
   background: linear-gradient(
     90deg,
